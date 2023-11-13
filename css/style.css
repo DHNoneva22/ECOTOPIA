@@ -1,0 +1,62 @@
+body{
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+}
+
+li, a{
+    font-size: 24px;
+    color: rgb(28, 156, 45);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation-bar{
+    gap:1px;
+    padding: 10px 6px;
+    float:right;
+    text-align: right;
+}
+
+.navigation-bar-links{
+    list-style: none;
+    padding:0px 150px;
+}
+
+.navigation-bar-links li{
+    display: inline-block;
+    padding: 3px 25px;
+}
+
+.navigation-bar-links li a:hover{
+    transition: all 0.3s ease 0s;
+    color:darkgreen;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 16px;
+    gap:2px;
+}
+   
+li:hover{
+    text-decoration: underline;
+    transition:all 0.3s ease;
+}
+
+.main-heading{
+    position:absolute;
+    top: 300px;
+    left:720px;
+    font-size: 90px;
+}
+
+.RRR-links{
+    position: absolute;
+    top:420px;
+    left:845px;
+    font-size: 30px;
+    display:flex;
+}
+ 
+
