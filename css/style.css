@@ -1,12 +1,11 @@
 body{
     padding:0px;
     margin:0px;
-    overflow: hidden;
 }
 
 li, a{
     font-size: 24px;
-    color: rgb(28, 156, 45);
+    color: rgb(19, 190, 19);
     text-decoration: none;
     font-weight: bold;
 }
@@ -38,11 +37,6 @@ nav ul li{
     font-size: 16px;
     gap:2px;
 }
-   
-li:hover{
-    text-decoration: underline;
-    transition:all 0.3s ease;
-}
 
 .main-heading{
     position:absolute;
@@ -51,12 +45,31 @@ li:hover{
     font-size: 90px;
 }
 
-.RRR-links{
+.main-heading:hover{
+    color:green;
+    transition: all 0.3s ease 0s;
+}
+
+.RRR-links-row{
     position: absolute;
     top:420px;
     left:845px;
     font-size: 30px;
-    display:flex;
+}
+
+.underline{
+    color: rgb(19, 190, 19);
+    text-decoration: none;
+}
+
+.underline:hover {
+    background-size: 0 0.1em, 100% 0.1em;
+    background: 
+      linear-gradient(to right,rgb(119, 226, 119), green, darkgreen,green, rgb(119, 226, 119));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    transition: all 0.3s ease 0s;
 }
  
-
