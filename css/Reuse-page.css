@@ -1,6 +1,8 @@
 body{
     padding:0px;
     margin:0px;
+    overflow-x: hidden;
+    background-color: rgb(234, 255, 234);
 }
 
 li, a{
@@ -32,9 +34,8 @@ li, a{
     color:darkgreen;
 }
 
-.underline{
-    color: rgb(19, 190, 19);
-    text-decoration: none;
+hr{
+   margin: 30px;
 }
 
 .text {
@@ -51,6 +52,7 @@ li, a{
     border-radius: 15px;
     border:0.5px solid green;
     padding:5px 10px;
+    color: rgb(62, 104, 62);
 }
 
 .button-1:hover{
@@ -64,6 +66,7 @@ li, a{
     border-radius: 15px;
     border:0.5px solid green;
     padding:5px 10px;
+    color: rgb(62, 104, 62);
 }
 
 .button-2:hover{
@@ -77,6 +80,7 @@ li, a{
     border-radius: 15px;
     border:0.5px solid green;
     padding:5px 10px;
+    color: rgb(62, 104, 62);
 }
 
 .button-3:hover{
@@ -86,6 +90,61 @@ li, a{
     padding:5px 18px;
 }
 
+.button-4{
+    border-radius: 15px;
+    border:0.5px solid green;
+    padding:5px 10px;
+    color: rgb(62, 104, 62);
+}
+
+.button-4:hover{
+    background-color: rgb(0, 107, 0);
+    transition: all 0.3s ease 0s;
+    transform: translateY(-10px);
+    padding:5px 18px;
+}
+
+.button-5{
+    border-radius: 15px;
+    border:0.5px solid green;
+    padding:5px 10px;
+    color: rgb(62, 104, 62);
+}
+
+.button-5:hover{
+    background-color: rgb(0, 107, 0);
+    transition: all 0.3s ease 0s;
+    transform: translateY(-10px);
+    padding:5px 18px;
+}
+
+.button-6{
+    border-radius: 15px;
+    border:0.5px solid green;
+    padding:5px 10px;
+    color: rgb(62, 104, 62);
+}
+
+.button-6:hover{
+    background-color: rgb(0, 107, 0);
+    transition: all 0.3s ease 0s;
+    transform: translateY(-10px);
+    padding:5px 18px;
+}
+
+.button-7{
+    border-radius: 15px;
+    border:0.5px solid green;
+    padding:5px 10px;
+    color: rgb(62, 104, 62);
+}
+
+.button-7:hover{
+    background-color: rgb(0, 107, 0);
+    transition: all 0.3s ease 0s;
+    transform: translateY(-10px);
+    padding:5px 18px;
+}
 .Reuse-heading{
     position: absolute;
     left:70px;
@@ -94,8 +153,60 @@ li, a{
 
 .change{
     position: absolute;
-    top:100px;
-    left: 450px;
+    top:300px;
+    left: 500px;
 }
 
+.bullets{
+    color: rgb(62, 104, 62);
+}
 
+img{
+    display: flex;
+    left: 50px;
+    position: absolute;   
+    width: 300px;
+    border-radius: 20px;
+}
+
+.item1{
+    position: absolute;
+    top: 180px;
+    left:50px;
+}
+
+.item2{
+    position: absolute;
+    top: 620px;
+    left:50px;
+}
+
+.item3{
+    position: absolute;
+    top: 1195px;
+    left:50px;
+}
+
+.item4{
+    position: absolute;
+    top: 1670px;
+    left:50px;
+}
+
+.item5{
+    position: absolute;
+    top: 2100px;
+    left:50px;
+}
+
+.item6{
+    position: absolute;
+    top: 2600px;
+    left:50px;
+}
+
+.item7{
+    position: absolute;
+    top: 3070px;
+    left:50px;
+}

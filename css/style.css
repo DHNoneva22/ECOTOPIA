@@ -57,19 +57,3 @@ nav ul li{
     font-size: 30px;
 }
 
-.underline{
-    color: rgb(19, 190, 19);
-    text-decoration: none;
-}
-
-.underline:hover {
-    background-size: 0 0.1em, 100% 0.1em;
-    background: 
-      linear-gradient(to right,rgb(119, 226, 119), green, darkgreen,green, rgb(119, 226, 119));
-    background-size: 100% 0.1em, 0 0.1em;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
-    transition: all 0.3s ease 0s;
-}
- 
