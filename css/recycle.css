@@ -1,6 +1,7 @@
 body{
     padding:0px;
     margin:0px;
+    box-sizing: border-box;
 }
 
 li, a{
@@ -38,12 +39,22 @@ nav ul li{
     gap:2px;
 }
 
-.map {
-    height: 100%;
-  }
-  
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+.map-container{
+    width:100%;
+    height:100vh;
+    position: absolute;
+    top:500px;
+    left:700px;
+
+}
+
+h1{
+    position: absolute;
+    top:500px;
+    left:700px;
+}
+
+iframe{
+    border:0;
+    margin-top: 500;
+}
