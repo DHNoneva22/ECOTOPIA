@@ -1,0 +1,146 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+li, a{
+    font-size: 24px;
+    color: rgb(19, 190, 19);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation-bar{
+    gap:1px;
+    padding: 10px 6px;
+    float:right;
+    text-align: right;
+}
+
+.navigation-bar-links{
+    list-style: none;
+    padding:0px 150px;
+}
+
+.navigation-bar-links li{
+    display: inline-block;
+    padding: 3px 25px;
+}
+
+.navigation-bar-links li a:hover{
+    transition: all 0.3s ease 0s;
+    color:darkgreen;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 16px;
+    gap:2px;
+}
+
+.big-green-box{
+    background-color: rgb(165, 241, 165);
+    background-size: cover;
+    width:800px;
+    height:500px;
+    position: absolute;
+    top:240px;
+    left:150px;
+    border-radius: 20px;
+    border:solid green 5px;
+}
+
+.first-name-box{
+    position: absolute;
+    top:25px;
+    left:50px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: solid green 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.last-name-box{
+    position: absolute;
+    top:100px;
+    left:50px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: solid green 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.age-box{
+    position: absolute;
+    top:175px;
+    left:50px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: solid green 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.E-mail-box{
+    position: absolute;
+    top:250px;
+    left:50px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: solid green 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Phone-number-box{
+    position: absolute;
+    top:325px;
+    left:50px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: solid green 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Feedback-comment-box{
+    position: absolute;
+    top:25px;
+    left:400px;
+    width:320px;
+    height:335px;
+    border-radius: 10px;
+    border: solid green 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.submit-button{
+    position: absolute;
+    width: 281px;
+    height: 47px;
+    left: 250px;
+    top: 400px;
+    border-radius: 10px;
+    border: solid green 2px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color:grey;
+}
+
+.submit-button:hover{
+    background-color: rgb(13, 172, 13);
+    color:white;
+    transition: all 0.3s ease 0.1s;
+    transform: translateY(-10px);
+}
+
