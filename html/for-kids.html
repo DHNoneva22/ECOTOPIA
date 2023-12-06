@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "../css/for-kids.css">
-    <title>For Kids</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/for-kids.css">
+  <title>Recycle Game</title>
 </head>
 <body>
-    <script href = "../game/game.js"></script>
-    <div class = "navigation-bar"> 
-        <ul class = "navigation-bar-links">
-            <li><a href = "../html/index.html" class = "underline">Home</a></li>
-            <li><a href = "../html/for-kids.html" class = "underline">For Kids</a></li>
-            <li><a href = "" class = "underline">About us</a></li>
-            <li><a href = "" class = "underline">Contact</a></li>
-        </ul>
+ 
+    <img src = "../images/game/gamebackground.png" class = "background">
+  <div id="home-screen">
+    <button onclick="startGame()">Play</button>
+  </div>
+ 
+  <div id="difficulty-screen" style="display:none;">
+    <h2>Choose Difficulty:</h2>
+    <button onclick="setDifficulty('easy')">Easy</button>
+    <button onclick="setDifficulty('hard')">Hard</button>
+  </div>
+ 
+  <div id="avatar-screen" style="display:none;">
+    <h2>Choose Avatar:</h2>
+    <button onclick="setAvatar('racoon')">Racoon</button>
+    <button onclick="setAvatar('squirrel')">Squirrel</button>
+    <button onclick="setAvatar('rat')">Rat</button>
+    <button onclick="setAvatar('possum')">Possum</button>
+  </div>
+ 
+  <div id="game-screen" style="display:none;">
+    <h2 class = "title">Recycle Game</h2>
+    <div class = "score-text">
+        <p>Score: <span id="score">0</span></p>
     </div>
-    
+    <div id="conveyor-belt"></div>
+    <div id="bin" onclick="recycle()"></div>
+  </div>
+ 
+  <script src="../game/game.js"></script>
 </body>
 </html>
