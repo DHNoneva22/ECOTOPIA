@@ -43,6 +43,39 @@ nav ul li{
   gap:2px;
 } 
 
+.box{
+  height: 600px;
+  background-color:rgb(104, 112, 130);
+  padding: 0%;
+  z-index: 0;
+}
+
+#box-heading{
+  color: rgb(196, 190, 190);
+  font-size: 90px;
+}
+
+#box-paragraph{
+  position: absolute;
+  top:230px;
+  color: rgb(238, 238, 238);
+  font-size: 20px;
+}
+
+.text{
+  position: absolute;
+  left:50px;
+  top: 90px;
+}
+
+.chart1{
+  position: absolute;
+  top:350px;
+  left: 180px;
+  z-index: 5;
+  background-color:  rgb(238, 238, 238);
+}
+
 .chart-heading {
     font-family: "Rubik", sans-serif;
     color: rgb(3, 48, 71);
@@ -52,7 +85,8 @@ nav ul li{
   }
   
   .chart-container {
-    width: 600px;
+    width: 1500px;
+    z-index: 5;
   }
   
   .stats {
@@ -67,11 +101,6 @@ nav ul li{
     padding: 8px 32px;
     color: #023047;
     transition: all 400ms ease;
-  }
-  
-  .stats:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
   }
   
   .stats ul {

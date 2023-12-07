@@ -248,7 +248,7 @@ box-shadow: 17px 15px 40px 3px  rgb(163, 160, 159);
 }
 
 .Left-box{
-background-color: grey;
+background-color: rgb(37, 37, 37);
 width:700px;
 height:550px;
 border-bottom-left-radius: 15px;
@@ -262,22 +262,22 @@ left:150px;
 {
 font-size: 80px;
 position: absolute;
-left:410px;
-top:2px;
-color:rgb(37, 37, 37);
+left:90px;
+top:20px;
+color:rgb(178, 166, 164);
 z-index:3;
 }
 
 .leaf{
   position: absolute;
-  width:550px;
-  top:10px;
-  left:120px;
+  width:450px;
+  top:87px;
+  left:400px;
   z-index: 2;
 }
 
 .Right-box{
-background-color: rgb(7, 79, 56);
+background-color:  rgb(178, 166, 164);
 width:700px;
 height:550px;
 border-bottom-right-radius: 15px;
@@ -371,7 +371,7 @@ text-align: center;
   background-color: whitesmoke;
   border:solid rgb(30, 30, 30) 2px;
   border-radius: 15px;
-  color: rgb(10,112,80);
+  color: rgb(30, 30, 30);
   font-size: 20px;
   font-weight:bold;
   text-align: center;
@@ -382,7 +382,7 @@ text-align: center;
 
 .submit-button:hover{
   background-color:rgb(215, 215, 215);
-  color:rgb(10, 112, 80);
+  color:rgb(30, 30, 30);
   transition:all 0.3s ease 0.2s;
   transform: translateY(-20px);
 }
