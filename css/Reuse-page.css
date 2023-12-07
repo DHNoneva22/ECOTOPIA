@@ -99,7 +99,68 @@ body{
     border-radius: 10px;
 }
 
-.text {
+.text1 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin:0;
+  }
+
+.text2 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin:0;
+  }
+
+.text3 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin:0;
+  }
+
+.text4 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin:0;
+  }
+
+.text5 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin:0;
+  }
+
+.text6 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin:0;
+  }
+
+
+.text7 {
     color: black;
     font-size: 18px;
     padding: 8px 12px;
@@ -284,4 +345,145 @@ img{
     position: absolute;
     top: 3000px;
     left:50px;
+}
+
+@media only screen and (max-width:1000px) {
+    nav ul {
+        width:100%;
+        position:absolute;
+        left: -300px;
+        top:75px;
+        right:0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;   
+    }
+
+    .item1{
+        position: absolute;
+        top:230px;
+        left:300px;
+    }
+
+    .text1{
+        position: absolute;
+        top:320px;
+        left:-330px;
+        width:670px;
+        padding-top:30px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .item2{
+        position: absolute;
+        top:1130px;
+        left:300px;
+        z-index: 2;
+
+    }
+
+    .text2{
+        position: absolute;
+        top:900px;
+        left:-330px;
+        width:670px;
+        padding-top:30px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .item3{
+        position: absolute;
+        top:2250px;
+        left:300px;
+        z-index: 2;
+
+    }
+
+    .text3{
+        position: absolute;
+        top:1430px;
+        left:-340px;
+        width:670px;
+        padding-top:30px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .item4{
+        position: absolute;
+        top:3200px;
+        left:300px;
+        z-index: 2;
+
+    }
+
+    .text4{
+        position: absolute;
+        top:1900px;
+        left:-340px;
+        width:670px;
+        padding-top:30px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .item5{
+        position: absolute;
+        top:4080px;
+        left:300px;
+        z-index: 2;
+
+    }
+
+    .text5{
+        position: absolute;
+        top:2350px;
+        left:-340px;
+        width:670px;
+        padding-top:30px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .item6{
+        position: absolute;
+        top:5085px;
+        left:300px;
+        z-index: 2;
+
+    }
+
+    .text6{
+        position: absolute;
+        top:2950px;
+        left:-340px;
+        width:670px;
+        padding-top:30px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .item7{
+        position: absolute;
+        top: 6030px;
+        left:300px;
+        z-index: 2;
+
+    }
+
+    .text7{
+        position: absolute;
+        top:3440px;
+        left:-340px;
+        width:670px;
+        padding-top:30px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
 }
