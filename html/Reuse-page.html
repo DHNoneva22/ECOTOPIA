@@ -9,15 +9,28 @@
     <title>REUSE</title>
   </head>
   <body>
+
+    <script src = "../javascript/reuse.js"></script>
+
     <div class = "navigation-bar">
         <nav>
           <ul class = "navigation-bar-links">
-              <li><a href = "../html/index.html" class = "underline">Home</a></li>
-              <li><a href = "../html/for-kids.html" class = "underline">For Kids</a></li>
-              <li><a href = "../html/about_us.html" class = "underline">About us</a></li>
+            <li><a href = "../html/index.html">Home</a></li>
+            <li><a href = "../html/about_us.html" >About us</a></li>
+            <li><a href = "../html/Reuse-page.html">Reuse</a></li>
+            <li><a href = "../html/reduce.html" >Reduce</a></li>
+            <li><a href = "../html/recycle.html" >Recycle</a></li>
+            <li><a href = "../html/for-kids.html" >For Kids</a></li>
           </ul>
         </nav>
       </div>
+
+      <div class = "icon-cart">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20" class ="icon">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+         </svg>
+        <p id = "counter">0</p>
+    </div>
 
       <div class="item1">
         <img src="../images/shop/journal.jpg">
@@ -58,7 +71,7 @@
                      Made from recycled paper.
                     </p>
                   <br>
-                  <button class = "button-1"><a href="">Buy Now!</a></button>    
+                  <button class = "button-1" onclick = "document.getElementById('counter').innerText = parseInt(document.getElementById('counter').innerText) + 1">Add to Cart!</button>    
                 </div>
             </section>
 
@@ -76,7 +89,7 @@
               Hawthorn Handmade Skincare is made with love by Elaine in small batches on her <br> family farm  in the west of Ireland. The philosophy is simple: create skin nourishing products using 100% natural ingredients. <br> Products are packaged in recyclable and reusable amber glass bottles and jars with FSC certified outer packaging. <br> Vegan Friendly + Cruelty Free.
             </p>
             <br>
-        <button class = "button-2"><a href="">Buy Now!</a></button>    
+        <button class = "button-2" onclick = "document.getElementById('counter').innerText = parseInt(document.getElementById('counter').innerText) + 1">Add to Cart!</button>    
     </div>
     </section>
 
@@ -95,7 +108,7 @@
               </h4>
           </p>
           <br>
-      <button class = "button-3"><a href="">Buy Now!</a></button>    
+      <button class = "button-3" onclick = "document.getElementById('counter').innerText = parseInt(document.getElementById('counter').innerText) + 1">Add to Cart!</button>    
     </div>
   </section>
 
@@ -115,7 +128,7 @@
       </h4>
     </p>
     <br>
-    <button class = "button-4"><a href="">Buy Now!</a></button>    
+    <button class = "button-4" onclick = "document.getElementById('counter').innerText = parseInt(document.getElementById('counter').innerText) + 1">Add to Cart!</button>    
 </div>
   </section>
 
@@ -130,7 +143,7 @@
       Sustainability is at the fore front of <br> Bean and Goose who partner with ‘bean to bar’ organic producer Original Beans to pay above fair-trade prices that are stable <br> and protected from market fluctuations to farmers. This security means that farmers can focus on growing the best quality cocoa and has <br> noticeably improved the income of 6,731 farm families while helping to protect the environment around them. <br> Bean and Goose never have and never will use palm oil in any of their products and plant a tree for every bar.
     </p>
     <br>
-    <button class = "button-5"><a href="">Buy Now!</a></button>    
+    <button class = "button-5" onclick = "document.getElementById('counter').innerText = parseInt(document.getElementById('counter').innerText) + 1">Add to Cart!</button>    
   </div>
   </section>
 
@@ -151,7 +164,7 @@
       </h4>
     </p>
     <br>
-    <button class = "button-6"><a href="">Buy Now!</a></button>    
+    <button class = "button-6" onclick = "document.getElementById('counter').innerText = parseInt(document.getElementById('counter').innerText) + 1">Add to Cart!</button>    
   </div>
   </section>
 
@@ -170,11 +183,11 @@
       Like with all our gift boxes - we can add a personal message of your <br> choice - just let us know in the gift notes box when you checkout.
     </p>
     <br>
-    <button class = "button-7"><a href="">Buy Now!</a></button>    
+    <button class = "button-7" onclick = "document.getElementById('counter').innerText = parseInt(document.getElementById('counter').innerText) + 1">Add to Cart!</button>    
   </div>
   </section>
        
+
 </body>
 </html>
-  </body>
 </html>
