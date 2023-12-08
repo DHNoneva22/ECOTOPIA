@@ -5,14 +5,14 @@ body{
   background-color: rgb(238, 238, 238);
   overflow-x: hidden;
 }
-
+ 
 li, a{
   font-size: 30px;
   color: rgb(196, 190, 190);
   text-decoration: none;
   font-weight: bold;
 }
-
+ 
 .navigation-bar{
   gap:1px;
   padding: 10px 6px;
@@ -21,61 +21,72 @@ li, a{
   width:100%;
   height:250px;
 }
-
+ 
 .navigation-bar-links{
   list-style: none;
   padding:10px 90px;
 }
-
+ 
 .navigation-bar-links li{
   display: inline-block;
   padding: 3px 25px;
 }
-
+ 
 .navigation-bar-links li a:hover{
   transition: all 0.3s ease 0s;
   color: rgb(37, 37, 37);
 }
-
+ 
 nav ul li{
   list-style: none;
   font-size: 16px;
   gap:2px;
-} 
-
+}
+ 
 .box{
   height: 600px;
   background-color:rgb(104, 112, 130);
   padding: 0%;
   z-index: 0;
 }
-
+ 
 #box-heading{
   color: rgb(196, 190, 190);
   font-size: 90px;
 }
-
+ 
 #box-paragraph{
   position: absolute;
   top:230px;
   color: rgb(238, 238, 238);
   font-size: 20px;
 }
-
+ 
 .text{
   position: absolute;
   left:50px;
   top: 90px;
 }
-
+ 
 .chart1{
   position: absolute;
   top:350px;
   left: 180px;
   z-index: 5;
-  background-color:  rgb(238, 238, 238);
 }
-
+ 
+.chart2{
+  position: absolute;
+  top:1550px;
+  left: 180px;
+}
+ 
+.chart3{
+  position: absolute;
+  top:1550px;
+  left: 1230px;
+}
+ 
 .chart-heading {
     font-family: "Rubik", sans-serif;
     color: rgb(3, 48, 71);
@@ -83,12 +94,22 @@ nav ul li{
     font-size: 24px;
     text-align: center;
   }
-  
-  .chart-container {
+ 
+  .chart-container1 {
     width: 1500px;
     z-index: 5;
   }
-  
+ 
+  .chart-container2 {
+    width: 900px;
+    z-index: 5;
+  }
+ 
+  .chart-container3 {
+    width: 450px;
+    z-index: 5;
+  }
+ 
   .stats {
     font-family: "Rubik", sans-serif;
     display: flex;
@@ -99,22 +120,109 @@ nav ul li{
     box-shadow: 0 4px 12px -2px rgba(83, 78, 78, 0.3);
     border-radius: 20px;
     padding: 8px 32px;
-    color: #023047;
+    color: rgb(3, 48, 71);
     transition: all 400ms ease;
+    background-color:  rgb(238, 238, 238);
   }
-  
+ 
   .stats ul {
     list-style: none;
     padding: 0;
   }
-  
+ 
   .stats ul li {
     font-size: 16px;
     margin: 20px 20px;
     text-transform: uppercase;
   }
-  
+ 
   .stats {
     font-weight: 700;
     color: #e63946;
   }
+ 
+.fact1{
+  width: 320px;
+  background-color:rgb(104, 112, 130);
+  position: absolute;
+  top: 1300px;
+  left: 180px;
+  border-radius: 20px;
+  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  padding: 20px;
+}
+ 
+#first-fact-percentage{
+  color: rgb(196, 190, 190);
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+#first-fact-description{
+  font-size: 18px;
+}
+ 
+.fact2{
+  width: 320px;
+  background-color:rgb(104, 112, 130);
+  position: absolute;
+  top: 1300px;
+  left: 580px;
+  border-radius: 20px;
+  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  padding: 20px;
+}
+ 
+#second-fact-percentage{
+  color: rgb(196, 190, 190);
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+#second-fact-description{
+  font-size: 18px;
+}
+ 
+.fact3{
+  width: 320px;
+  height: 143px;
+  background-color:rgb(104, 112, 130);
+  position: absolute;
+  top: 1300px;
+  left: 980px;
+  border-radius: 20px;
+  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  padding: 20px;
+}
+ 
+#third-fact-percentage{
+  color: rgb(196, 190, 190);
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+#third-fact-description{
+  font-size: 18px;
+}
+ 
+.fact4{
+  width: 320px;
+  height: 143px;
+  background-color:rgb(104, 112, 130);
+  position: absolute;
+  top: 1300px;
+  left: 1380px;
+  border-radius: 20px;
+  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  padding: 20px;
+}
+ 
+#fourth-fact-percentage{
+  color: rgb(196, 190, 190);
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+#fourth-fact-description{
+  font-size: 18px;
+}
