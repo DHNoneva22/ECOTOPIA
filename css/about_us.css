@@ -52,14 +52,14 @@ top:110px;
 left:42%;
 }
 .about-us-box{
-background-color: rgb(217, 207, 208);
+background-color: #d9cfd0;
 width:1700px;
 height:700px;
 border-radius: 20px;
 position: absolute;
 left: 90px;
 top:300px;
-box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+border: 1px solid rgba(0, 0, 0, 0.496);
 }
 
 .story-heading{
@@ -206,19 +206,6 @@ font-size:27px;
 position:absolute;
 top:200px;
 left:100px;
-}
-
-.Donate-button{
-width:200px;
-font-size: 25px;
-color:rgb(151, 116, 83);
-border:solid rgb(151, 116, 83) 1px;
-background-color: whitesmoke;
-border-radius: 15px;
-position: absolute;
-left:100px;
-top:450px;
-padding: 10px;
 }
 
 .Donate-button:hover{

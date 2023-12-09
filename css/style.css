@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=DM+Serif+Display&family=Dancing+Script:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body{
     padding:0px;
     margin:0px;
     box-sizing: border-box;
     background-color: rgb(238, 238, 238);
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   
   li, a{
@@ -11,6 +14,22 @@ body{
     color: rgb(196, 190, 190);
     text-decoration: none;
     font-weight: bold;
+    position: relative;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #772734;
+    transition: .2s;
   }
   
   .navigation-bar{
@@ -45,21 +64,17 @@ body{
  
 
 .main-heading{
-    color: rgb(104, 112, 130);
-    font-size: 50px;
+    color: rgb(37, 37, 37);
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    top:60px;
-    left:10px;
-}
-
-.main-heading:hover{
-    color: rgb(196, 190, 190);
-    transition: all 0.3s ease 0s;
+    top:70px;
+    left:6px;
 }
 
 .main-wrapper {
   display: flex;
-  margin:10px;
+  margin:50px;
   transform-style: preserve-3d;
   perspective: 400px;
   inset: 0;
@@ -87,7 +102,7 @@ body{
   position: absolute;
   left: 50%;
   top: 50%;
-  height: 200px;
+  height: 240px;
   width: 0;
 }
 .dot {
@@ -131,18 +146,9 @@ body{
   top:280px;
 }
 
-.Reuse{
-  font-size: 85px;
-}
-
-.Reduce{
-  font-size: 85px;
-}
-
-.Recycle{
-  font-size: 85px;
-}
-
-.R-letter{
+.RRR-headings{
+  font-size: 100px;
   color: rgb(37, 37, 37);
+  font-family: 'Cormorant Garamond', serif;
+  
 }

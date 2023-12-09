@@ -45,7 +45,9 @@ body{
 
 #item1 {
     position: absolute;
-    top:-10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    top:-67px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -53,7 +55,9 @@ body{
 
 #item2 {
     position: absolute;
-    top: 360px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    top: 330px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -61,7 +65,9 @@ body{
 
 #item3 {
     position: absolute;
-    top: 870px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    top: 860px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -69,7 +75,9 @@ body{
 
 #item4 {
     position: absolute;
-    top: 1350px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    top: 1330px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -77,7 +85,9 @@ body{
 
 #item5 {
     position: absolute;
-    top: 1800px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    top: 1780px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -85,6 +95,8 @@ body{
 
 #item6 {
     position: absolute;
+    padding-top: 10px;
+    padding-bottom: 15px;
     top: 2200px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
@@ -93,6 +105,8 @@ body{
 
 #item7 {
     position: absolute;
+    padding-top: 10px;
+    padding-bottom: 15px;
     top: 2650px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
@@ -171,8 +185,8 @@ body{
   }
 
 .button-1{
-    color: rgb(196, 190, 190);
-    border:solid rgb(104, 112, 130) 1px;
+    color: rgb(114, 0, 19);
+    border:solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
     padding:5px 10px;
@@ -194,8 +208,8 @@ body{
 }
 
 .button-2{
-    color: rgb(196, 190, 190);
-    border:solid rgb(104, 112, 130) 1px;
+    color: rgb(114, 0, 19);
+    border:solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
     padding:5px 10px;
@@ -215,8 +229,8 @@ body{
 }
 
 .button-3{
-    color: rgb(196, 190, 190);
-    border:solid rgb(104, 112, 130) 1px;
+    color: rgb(114, 0, 19);
+    border:solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
     padding:5px 10px;
@@ -236,8 +250,8 @@ body{
 }
 
 .button-4{
-    color: rgb(196, 190, 190);
-    border:solid rgb(104, 112, 130) 1px;
+    color: rgb(114, 0, 19);
+    border:solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
     padding:5px 10px;
@@ -257,8 +271,8 @@ body{
 }
 
 .button-5{
-    color: rgb(196, 190, 190);
-    border:solid rgb(104, 112, 130) 1px;
+    color: rgb(114, 0, 19);
+    border:solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
     padding:5px 10px;
@@ -278,8 +292,8 @@ body{
 }
 
 .button-6{
-    color: rgb(196, 190, 190);
-    border:solid rgb(104, 112, 130) 1px;
+    color: rgb(114, 0, 19);
+    border:solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
     padding:5px 10px;
@@ -299,8 +313,8 @@ body{
 }
 
 .button-7{
-    color: rgb(196, 190, 190);
-    border:solid rgb(104, 112, 130) 1px;
+    color: rgb(114, 0, 19);
+    border:solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
     padding:5px 10px;
@@ -331,7 +345,7 @@ body{
 }
 
 .bullets{
-    color: rgb(104, 112, 130);
+    color: rgb(72, 29, 36);
 }
 
 img{
@@ -397,7 +411,7 @@ img{
     left:1840px;
     top:50px;
     z-index: 2;
-    background-color: red;
+    background-color: #772734;
     color:white;
     width: 20px;
     text-align: center;
@@ -559,7 +573,7 @@ img{
         left:940px;
         top:121px;
         z-index: 2;
-        background-color: red;
+        background-color: #772734;
         color:white;
         width: 20px;
         text-align: center;
