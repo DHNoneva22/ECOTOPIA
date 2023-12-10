@@ -22,6 +22,13 @@ li, a{
   height:250px;
 }
 
+.logo{
+  width:250px;
+  position: absolute;
+  left:30px;
+  top:-70px;
+}
+
 .navigation-bar-links{
   list-style: none;
   padding:10px 90px;
@@ -102,6 +109,15 @@ top:40px;
 font-size: 35px;
 }
 
+.Dimi-role{
+  font-size: 30px;
+  color:white;
+  position: absolute;
+  top:490px;
+  left:145px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
 .Dimi-pic{
 width:350px;
 height:350px;
@@ -114,26 +130,35 @@ top:150px;
 .Dimi-Figure{
   position: absolute;
   top: 420px;
-  left: 23px;
+  left: 22px;
 }
 
-.Titi-Name{
+.Stoyan-Name{
 position: absolute;
 left:536px;
 top:40px;
 font-size: 35px;
 }
 
-.Titi-pic{
+.Stoyan-role{
+  font-size: 30px;
+  color:white;
+  position: absolute;
+  top:490px;
+  left:535px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.Stoyan-pic{
 width:350px;
 height:350px;
 position: absolute;
 border-radius: 50%;
-left:470px;
+left:480px;
 top:150px;
 }
 
-.Titi-Figure{
+.Stoyan-Figure{
   position: absolute;
   top: 420px;
   left: 448px;
@@ -146,12 +171,21 @@ top:40px;
 font-size: 35px;
 }
 
+.Jaki-role{
+  font-size: 30px;
+  color:white;
+  position: absolute;
+  top:490px;
+  left:1030px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
 .Jaki-pic{
 width:350px;
 height:350px;
 position: absolute;
 border-radius: 50%;
-left:890px;
+left:900px;
 top:150px;
 }
 
@@ -166,6 +200,15 @@ position: absolute;
 left:1350px;
 top:40px;
 font-size: 35px;
+}
+
+.Steli-role{
+  font-size: 30px;
+  color:white;
+  position: absolute;
+  top:490px;
+  left:1355px;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .Steli-pic{
@@ -372,4 +415,185 @@ text-align: center;
   color:rgb(30, 30, 30);
   transition:all 0.3s ease 0.2s;
   transform: translateY(-20px);
+}
+
+@media only screen and (max-width:1000px) {
+  .title{
+    position: absolute;
+    left:350px;
+  }
+
+  .about-us-box{
+    width:800px;
+    position: absolute;
+    left:80px;
+    height:1000px;
+  }
+
+  .story-heading{
+    position: absolute;
+    left:270px;
+    top:30px;
+  }
+
+  .story-text{
+    position: absolute;
+    top:150px;
+    left:80px;
+    width:500px;
+  }
+
+  .story-image{
+    position: absolute;
+    top:550px;
+    left:120px;
+  }
+
+  .images-box{
+    width:800px;
+    height:2500px;
+    position: absolute;
+    top:1430px;
+  }
+
+  .Dimi-pic{
+    position: absolute;
+    left:220px;
+  }
+
+  .Dimi-Name{
+    position: absolute;
+    left:270px;
+  }
+
+  .Dimi-role{
+    position: absolute;
+    left:320px;
+  }
+
+  .Dimi-Figure{
+    position: absolute;
+    left:195px;
+  }
+
+  .Stoyan-pic{
+    position: absolute;
+    left:225px; 
+    top:770px;
+  }
+
+  .Stoyan-Name{
+    position: absolute;
+    left:280px;
+    top:680px;
+  }
+
+  .Stoyan-role{
+    position: absolute;
+    left:285px;
+    top:1110px;
+  }
+
+  .Stoyan-Figure{
+    position: absolute;
+    left:195px;
+    top:1040px;
+  }
+
+  .Jaki-pic{
+    position: absolute;
+    left:225px; 
+    top:1400px;
+  }
+
+  .Jaki-Name{
+    position: absolute;
+    left:280px;
+    top:1290px;
+  }
+
+  .Jaki-role{
+    position: absolute;
+    left:345px;
+    top:1730px;
+  }
+
+  .Jaki-Figure{
+    position: absolute;
+    left:195px;
+    top:1660px;
+  }
+
+  .Steli-pic{
+    position: absolute;
+    left:225px; 
+    top:1980px;
+  }
+
+  .Steli-Name{
+    position: absolute;
+    left:270px;
+    top:1870px;
+  }
+
+  .Steli-role{
+    position: absolute;
+    left:290px;
+    top:2310px;
+  }
+
+  .Steli-Figure{
+    position: absolute;
+    left:195px;
+    top:2240px;
+  }
+
+  .donate-box{
+    width:800px;
+    height: 1200px;
+    position: absolute;
+    top:4000px;
+  }
+
+  .video{
+    position: absolute;
+    top:670px;
+    left:90px;
+  }
+
+  .Forum-box{
+    width:800px;
+    height:1230px;
+    position: absolute;
+    top:5300px;
+    
+  }
+
+  .Left-box{
+    position: absolute;
+    left:50px;
+    top:80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .leaf{
+    position: absolute;
+    left:300px;
+    top:67px;
+  }
+
+  .Right-box{
+    position: absolute;
+    left:50px;
+    top:630px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+
 }
