@@ -1,4 +1,5 @@
 body{
+  /* For the entire page */
   padding:0px;
   margin:0px;
   box-sizing: border-box;
@@ -6,7 +7,8 @@ body{
   overflow-x: hidden;
 }
 
-li, a{
+li a{
+  /* Style the navbar elements */
   font-size: 30px;
   color: rgb(196, 190, 190);
   text-decoration: none;
@@ -14,6 +16,7 @@ li, a{
 }
 
 .navigation-bar{
+  /* Position of navigation bar */
   gap:1px;
   padding: 10px 6px;
   float:right;
@@ -23,6 +26,7 @@ li, a{
 }
 
 .logo{
+  /* Position of logo */
   width:250px;
   position: absolute;
   left:30px;
@@ -30,35 +34,42 @@ li, a{
 }
 
 .navigation-bar-links{
+  /* Alignment of navigation bar*/
   list-style: none;
   padding:10px 90px;
 }
 
 .navigation-bar-links li{
+  /* Display of links in navigation bar */
   display: inline-block;
   padding: 3px 25px;
 }
 
 .navigation-bar-links li a:hover{
+  /* Hover effect on navigation bar links */
   transition: all 0.3s ease 0s;
   color: rgb(37, 37, 37);
 }
 
-nav ul li{
+ul li{
+  /* lists style */
   list-style: none;
   font-size: 16px;
   gap:2px;
 }
 
 .title{
+  /* Style big about us title */
   position: absolute;
   text-align: center;
   font-size: 70px;
   color:rgb(37, 37, 37);
   top:110px;
-    left:42%;
+  left:42%;
 }
+
 .about-us-box{
+  /* Style big about us box */
   background-color: #d9cfd0;
   width:1700px;
   height:700px;
@@ -70,6 +81,7 @@ nav ul li{
 }
 
 .story-heading {
+  /* Position heading */
   font-size: 45px;
   position: absolute;
   top: 80px;
@@ -77,6 +89,7 @@ nav ul li{
 }
 
 .story-text {
+  /* Position text */
   font-size: 27px;
   position: absolute;
   top: 200px;
@@ -84,6 +97,7 @@ nav ul li{
 }
 
 .story-image {
+  /* Position image */
   width: 600px;
   position: absolute;
   left: 1060px;
@@ -92,6 +106,7 @@ nav ul li{
 }
 
 .images-box{
+  /* Style big box with images */
   background-color:rgb(104, 112, 130);
   height:700px;
   width:1700px;
@@ -103,6 +118,7 @@ nav ul li{
 }
 
 .Dimi-Name {
+  /* Style Dimaya name text */
   position: absolute;
   left: 110px;
   top: 40px;
@@ -110,6 +126,7 @@ nav ul li{
 }
 
 .Dimi-role{
+  /* Style Dimaya role text */
   font-size: 30px;
   color:white;
   position: absolute;
@@ -119,6 +136,7 @@ nav ul li{
 }
 
 .Dimi-pic {
+  /* Style Dimaya image */
   width: 350px;
   height: 350px;
   position: absolute;
@@ -128,12 +146,14 @@ nav ul li{
 }
 
 .Dimi-Figure{
+  /* Style Dimaya figure image */
   position: absolute;
   top: 420px;
   left: 22px;
 }
 
 .Stoyan-Name {
+  /* Style Stoyan name text */
   position: absolute;
   left: 536px;
   top: 40px;
@@ -141,6 +161,7 @@ nav ul li{
 }
 
 .Stoyan-role{
+  /* Style Stoyan role text */
   font-size: 30px;
   color:white;
   position: absolute;
@@ -150,6 +171,7 @@ nav ul li{
 }
 
 .Stoyan-pic {
+  /* Style Stoyan image */
   width: 350px;
   height: 350px;
   position: absolute;
@@ -159,12 +181,14 @@ nav ul li{
 }
 
 .Stoyan-Figure{
+  /* Style Stoyan figure image */
   position: absolute;
   top: 420px;
   left: 448px;
 }
 
 .Jaki-Name {
+  /* Style Jaki name text */
   position: absolute;
   left: 950px;
   top: 40px;
@@ -172,6 +196,7 @@ nav ul li{
 }
 
 .Jaki-role{
+  /* Style Jaki role text */
   font-size: 30px;
   color:white;
   position: absolute;
@@ -181,6 +206,7 @@ nav ul li{
 }
 
 .Jaki-pic {
+  /* Style Jaki image */
   width: 350px;
   height: 350px;
   position: absolute;
@@ -190,12 +216,14 @@ nav ul li{
 }
 
 .Jaki-Figure{
+  /* Style Jaki figure image */
   position: absolute;
   top: 420px;
   left: 873px;
 }
 
 .Steli-Name {
+  /* Style Steli name text */
   position: absolute;
   left: 1350px;
   top: 40px;
@@ -203,6 +231,7 @@ nav ul li{
 }
 
 .Steli-role{
+  /* Style Steli role text */
   font-size: 30px;
   color:white;
   position: absolute;
@@ -212,6 +241,7 @@ nav ul li{
 }
 
 .Steli-pic {
+  /* Style Steli image */
   width: 350px;
   height: 350px;
   position: absolute;
@@ -221,12 +251,14 @@ nav ul li{
 }
 
 .Steli-Figure{
+  /* Style Steli figure image */
   position: absolute;
   top: 420px;
   left: 1272px;
 }
 
 .donate-box {
+  /* Style the big mission box */
   background-color: rgb(217, 207, 208);
   width: 1700px;
   height: 700px;
@@ -238,6 +270,7 @@ nav ul li{
 }
 
 .donate-heading {
+  /* Style mission heading */
   font-size: 45px;
   position: absolute;
   top: 80px;
@@ -245,6 +278,7 @@ nav ul li{
 }
 
 .donate-text {
+  /* Style mission text */
   font-size: 27px;
   position: absolute;
   top: 200px;
@@ -252,6 +286,7 @@ nav ul li{
 }
 
 .Donate-button:hover {
+  /* Style donate button */
   color: rgb(151, 116, 83);
   background-color: rgb(229, 229, 229);
   transition: all 0.3s ease 0.2s;
@@ -259,6 +294,7 @@ nav ul li{
 }
 
 .video{
+  /* Style video */
   position: absolute;
   width: 640px;
   height: 430px;
@@ -267,6 +303,7 @@ nav ul li{
 }
 
 .Forum-box {
+  /* Style big forum box */
   background-color: rgb(104, 112, 130);
   height: 700px;
   width: 1700px;
@@ -278,6 +315,7 @@ nav ul li{
 }
 
 .Left-box {
+  /* Style left box */
   background-color: rgb(37, 37, 37);
   width: 700px;
   height: 550px;
@@ -289,6 +327,7 @@ nav ul li{
 }
 
 .Forum-heading {
+  /* Style forum heading */
   font-size: 80px;
   position: absolute;
   left: 90px;
@@ -298,6 +337,7 @@ nav ul li{
 }
 
 .leaf{
+  /* Style leaf image */
   position: absolute;
   width:450px;
   top:87px;
@@ -306,6 +346,7 @@ nav ul li{
 }
 
 .Right-box {
+  /* Style right forum box */
   background-color: rgb(178, 166, 164);
   width: 700px;
   height: 550px;
@@ -317,6 +358,7 @@ nav ul li{
 }
 
 .first-name-box {
+  /* Style first name input box */
   width: 260px;
   height: 40px;
   background-color: whitesmoke;
@@ -330,6 +372,7 @@ nav ul li{
 }
 
 .last-name-box {
+  /* Style last name input box */
   width: 260px;
   height: 40px;
   background-color: whitesmoke;
@@ -343,6 +386,7 @@ nav ul li{
 }
 
 .age-box {
+  /* Style age input box */
   width: 260px;
   height: 40px;
   background-color: whitesmoke;
@@ -356,6 +400,7 @@ nav ul li{
 }
 
 .E-mail-box {
+  /* Style e-mail input box */
   width: 260px;
   height: 40px;
   background-color: whitesmoke;
@@ -369,6 +414,7 @@ nav ul li{
 }
 
 .Phone-number-box {
+  /* Style phone number input box */
   width: 260px;
   height: 40px;
   background-color: whitesmoke;
@@ -382,6 +428,7 @@ nav ul li{
 }
 
 .Feedback-comment-box {
+  /* Style feedback input box */
   width: 280px;
   height: 360px;
   background-color: whitesmoke;
@@ -395,6 +442,7 @@ nav ul li{
 }
 
 .submit-button{
+  /* Style submit button */
   width:200px;
   padding:13px;
   background-color: whitesmoke;
@@ -410,12 +458,13 @@ nav ul li{
 }
 
 .submit-button:hover{
+  /* Style submit button */
   background-color:rgb(215, 215, 215);
   color:rgb(30, 30, 30);
   transition:all 0.3s ease 0.2s;
   transform: translateY(-20px);
 }
-
+/* Make page responsive */
 @media only screen and (max-width:1000px) {
   .title{
     position: absolute;
@@ -593,6 +642,4 @@ nav ul li{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
-
-
 }

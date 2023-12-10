@@ -8,8 +8,7 @@ body {
   background-color: rgb(238, 238, 238);
 }
 
-li,
-a {
+li a {
   /* Style the navbar elements */
   font-size: 30px;
   color: rgb(196, 190, 190);
