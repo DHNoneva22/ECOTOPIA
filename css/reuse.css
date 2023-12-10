@@ -1,65 +1,75 @@
-body{
-    padding:0px;
-    margin:0px;
+body {
+    /* For the entire page */
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     background-color: rgb(238, 238, 238);
-  }
-  
-  li, a{
+}
+
+li a {
+    /* Style the navbar elements */
     font-size: 30px;
     color: rgb(196, 190, 190);
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .navigation-bar{
-    gap:1px;
-    padding: 10px 6px;
-    float:right;
-    text-align: right;
-    width:100%;
-    height:250px;
-  }
+}
 
-  .logo{
-    width:250px;
+.navigation-bar {
+    /* Position of navigation bar */
+    gap: 1px;
+    padding: 10px 6px;
+    float: right;
+    text-align: right;
+    width: 100%;
+    height: 250px;
+}
+
+.logo {
+    /* Position of logo */
+    width: 250px;
     position: absolute;
-    left:30px;
-    top:-70px;
-  }
-  
-  .navigation-bar-links{
+    left: 30px;
+    top: -70px;
+}
+
+.navigation-bar-links {
+    /* Alignment of navigation bar*/
     list-style: none;
-    padding:10px 90px;
-  }
-  
-  .navigation-bar-links li{
+    padding: 10px 90px;
+}
+
+.navigation-bar-links li {
+    /* Display of links in navigation bar */
     display: inline-block;
     padding: 3px 25px;
-  }
-  
-  .navigation-bar-links li a:hover{
+}
+
+.navigation-bar-links li a:hover {
+    /* Hover effect on navigation bar links */
     transition: all 0.3s ease 0s;
     color: rgb(37, 37, 37);
-  }
-  
-  nav ul li{
+}
+
+ul li {
+    /* lists style */
     list-style: none;
     font-size: 16px;
-    gap:2px;
-  }  
+    gap: 2px;
+}
 
 #item1 {
+    /* Style for first section */
     position: absolute;
     padding-top: 10px;
     padding-bottom: 15px;
-    top:-67px;
+    top: -67px;
     width: 1300px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 #item2 {
+    /* Style for second section */
     position: absolute;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -70,6 +80,7 @@ body{
 }
 
 #item3 {
+    /* Style for third section */
     position: absolute;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -80,6 +91,7 @@ body{
 }
 
 #item4 {
+    /* Style for fourth section */
     position: absolute;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -90,6 +102,7 @@ body{
 }
 
 #item5 {
+    /* Style for fifth section */
     position: absolute;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -100,6 +113,7 @@ body{
 }
 
 #item6 {
+    /* Style for sixth section */
     position: absolute;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -110,6 +124,7 @@ body{
 }
 
 #item7 {
+    /* Style for seventh section */
     position: absolute;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -120,313 +135,339 @@ body{
 }
 
 .text1 {
+    /* Style for first product text */
     color: black;
     font-size: 18px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
     font-family: Verdana, sans-serif;
-    margin:0;
-  }
+    margin: 0;
+}
 
 .text2 {
+    /* Style for second product text */
     color: black;
     font-size: 18px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
     font-family: Verdana, sans-serif;
-    margin:0;
-  }
+    margin: 0;
+}
 
 .text3 {
+    /* Style for third product text */
     color: black;
     font-size: 18px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
     font-family: Verdana, sans-serif;
-    margin:0;
-  }
+    margin: 0;
+}
 
 .text4 {
+    /* Style for fourth product text */
     color: black;
     font-size: 18px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
     font-family: Verdana, sans-serif;
-    margin:0;
-  }
+    margin: 0;
+}
 
 .text5 {
+    /* Style for fifth product text */
     color: black;
     font-size: 18px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
     font-family: Verdana, sans-serif;
-    margin:0;
-  }
+    margin: 0;
+}
 
 .text6 {
+    /* Style for sixth product text */
     color: black;
     font-size: 18px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
     font-family: Verdana, sans-serif;
-    margin:0;
-  }
+    margin: 0;
+}
 
 
 .text7 {
+    /* Style for seventh product text */
     color: black;
     font-size: 18px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
     font-family: Verdana, sans-serif;
-    margin:0;
-  }
-
-.button-1{
-    color: rgb(114, 0, 19);
-    border:solid rgb(114, 0, 19) 1px;
-    background-color: whitesmoke;
-    border-radius: 15px;
-    padding:5px 10px;
-    width:200px;
-    height:45px;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-
-
+    margin: 0;
 }
 
-.button-1:hover{
-    background-color: whitesmoke;
-    transition: all 0.3s ease 0s;
-    transform: translateY(-10px);
-    padding:5px 18px;
-    width:220px;
-}
-
-.button-2{
+.button-1 {
+    /* Style for the first button */
     color: rgb(114, 0, 19);
-    border:solid rgb(114, 0, 19) 1px;
+    border: solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
-    padding:5px 10px;
-    width:200px;
-    height:45px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 45px;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 
-.button-2:hover{
+.button-1:hover {
+    /* Hover effect for the first button */
     background-color: whitesmoke;
     transition: all 0.3s ease 0s;
     transform: translateY(-10px);
-    padding:5px 18px;
-    width:220px;
+    padding: 5px 18px;
+    width: 220px;
 }
 
-.button-3{
+.button-2 {
+    /* Style for the second button */
     color: rgb(114, 0, 19);
-    border:solid rgb(114, 0, 19) 1px;
+    border: solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
-    padding:5px 10px;
-    width:200px;
-    height:45px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 45px;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 
-.button-3:hover{
+.button-2:hover {
+    /* Hover effect for the second button */
     background-color: whitesmoke;
     transition: all 0.3s ease 0s;
     transform: translateY(-10px);
-    padding:5px 18px;
-    width:220px;
+    padding: 5px 18px;
+    width: 220px;
 }
 
-.button-4{
+.button-3 {
+    /* Style for the third button */
     color: rgb(114, 0, 19);
-    border:solid rgb(114, 0, 19) 1px;
+    border: solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
-    padding:5px 10px;
-    width:200px;
-    height:45px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 45px;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 
-.button-4:hover{
+.button-3:hover {
+    /* Hover effect for the third button */
     background-color: whitesmoke;
     transition: all 0.3s ease 0s;
     transform: translateY(-10px);
-    padding:5px 18px;
-    width:220px;
+    padding: 5px 18px;
+    width: 220px;
 }
 
-.button-5{
+.button-4 {
+    /* Style for the fourth button */
     color: rgb(114, 0, 19);
-    border:solid rgb(114, 0, 19) 1px;
+    border: solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
-    padding:5px 10px;
-    width:200px;
-    height:45px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 45px;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 
-.button-5:hover{
+.button-4:hover {
+    /* Hover effect for the fourth button */
     background-color: whitesmoke;
     transition: all 0.3s ease 0s;
     transform: translateY(-10px);
-    padding:5px 18px;
-    width:220px;
+    padding: 5px 18px;
+    width: 220px;
 }
 
-.button-6{
+.button-5 {
+    /* Style for the fifth button */
     color: rgb(114, 0, 19);
-    border:solid rgb(114, 0, 19) 1px;
+    border: solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
-    padding:5px 10px;
-    width:200px;
-    height:45px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 45px;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 
-.button-6:hover{
+.button-5:hover {
+    /* Hover effect for the fifth button */
     background-color: whitesmoke;
     transition: all 0.3s ease 0s;
     transform: translateY(-10px);
-    padding:5px 18px;
-    width:220px;
+    padding: 5px 18px;
+    width: 220px;
 }
 
-.button-7{
+.button-6 {
+    /* Style for the sixth button */
     color: rgb(114, 0, 19);
-    border:solid rgb(114, 0, 19) 1px;
+    border: solid rgb(114, 0, 19) 1px;
     background-color: whitesmoke;
     border-radius: 15px;
-    padding:5px 10px;
-    width:200px;
-    height:45px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 45px;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 
-.button-7:hover{
+.button-6:hover {
+    /* Hover effect for the sixth button */
     background-color: whitesmoke;
     transition: all 0.3s ease 0s;
     transform: translateY(-10px);
-    padding:5px 18px;
-    width:220px;
+    padding: 5px 18px;
+    width: 220px;
 }
-.Reuse-heading{
+
+.button-7 {
+    /* Style for the seventh button */
+    color: rgb(114, 0, 19);
+    border: solid rgb(114, 0, 19) 1px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button-7:hover {
+    /* Hover effect for the seventh button */
+    background-color: whitesmoke;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-10px);
+    padding: 5px 18px;
+    width: 220px;
+}
+
+.products {
+    /* Alignment for every product */
     position: absolute;
-    left:70px;
-    font-size: 40px;
-}
-
-.change{
-    position: absolute;
-    top:300px;
+    top: 300px;
     left: 500px;
 }
 
-.bullets{
+.bullets {
+    /* Color for bullets information */
     color: rgb(72, 29, 36);
 }
 
-img{
+img {
+    /* Style of every image on the page */
     display: flex;
     left: 50px;
-    position: absolute;   
+    position: absolute;
     width: 300px;
     border-radius: 20px;
 }
 
-.item1{
+.item1 {
+    /* Style for the first product image */
     position: absolute;
     top: 210px;
-    left:50px;
+    left: 50px;
 }
 
-.item2{
+.item2 {
+    /* Style for the second product image */
     position: absolute;
     top: 690px;
-    left:50px;
+    left: 50px;
 }
 
-.item3{
+.item3 {
+    /* Style for the third product image */
     position: absolute;
     top: 1230px;
-    left:50px;
+    left: 50px;
 }
 
-.item4{
+.item4 {
+    /* Style for the fourth product image */
     position: absolute;
     top: 1670px;
-    left:50px;
+    left: 50px;
 }
 
-.item5{
+.item5 {
+    /* Style for the fifth product image */
     position: absolute;
     top: 2100px;
-    left:50px;
+    left: 50px;
 }
 
-.item6{
+.item6 {
+    /* Style for the sixth product image */
     position: absolute;
     top: 2560px;
-    left:50px;
+    left: 50px;
 }
 
-.item7{
+.item7 {
+    /* Style for the seventh product image */
     position: absolute;
     top: 3000px;
-    left:50px;
+    left: 50px;
 }
 
-.icon{
-    width:30px;
+.icon {
+    /* Shopping cart image */
+    width: 30px;
     position: absolute;
-    left:1820px;
-    top:40px;
+    left: 1820px;
+    top: 40px;
     z-index: 0;
 }
 
-#counter{
+#counter {
+    /* Shopping cart counter */
     position: absolute;
-    left:1840px;
-    top:50px;
+    left: 1840px;
+    top: 50px;
     z-index: 2;
     background-color: #772734;
-    color:white;
+    color: white;
     width: 20px;
     text-align: center;
     border-radius: 50%;
-
 }
 
+/* Make the page responsive */
 @media only screen and (max-width:1000px) {
-    
+
     #item1 {
         width: 0px;
     }
@@ -456,148 +497,141 @@ img{
     }
 
 
-    .item1{
+    .item1 {
         position: absolute;
-        top:230px;
-        left:300px;
+        top: 230px;
+        left: 300px;
     }
 
-    .text1{
+    .text1 {
         position: absolute;
-        top:320px;
-        left:-330px;
-        width:670px;
-        padding-top:30px;
+        top: 320px;
+        left: -330px;
+        width: 670px;
+        padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
-    .item2{
+    .item2 {
         position: absolute;
-        top:1130px;
-        left:300px;
+        top: 1130px;
+        left: 300px;
         z-index: 2;
-
     }
 
-    .text2{
+    .text2 {
         position: absolute;
-        top:900px;
-        left:-330px;
-        width:670px;
-        padding-top:30px;
+        top: 900px;
+        left: -330px;
+        width: 670px;
+        padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
-    .item3{
+    .item3 {
         position: absolute;
-        top:2250px;
-        left:300px;
+        top: 2250px;
+        left: 300px;
         z-index: 2;
-
     }
 
-    .text3{
+    .text3 {
         position: absolute;
-        top:1430px;
-        left:-340px;
-        width:670px;
-        padding-top:30px;
+        top: 1430px;
+        left: -340px;
+        width: 670px;
+        padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
-    .item4{
+    .item4 {
         position: absolute;
-        top:3200px;
-        left:300px;
+        top: 3200px;
+        left: 300px;
         z-index: 2;
-
     }
 
-    .text4{
+    .text4 {
         position: absolute;
-        top:1900px;
-        left:-340px;
-        width:670px;
-        padding-top:30px;
+        top: 1900px;
+        left: -340px;
+        width: 670px;
+        padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
-    .item5{
+    .item5 {
         position: absolute;
-        top:4080px;
-        left:300px;
+        top: 4080px;
+        left: 300px;
         z-index: 2;
-
     }
 
-    .text5{
+    .text5 {
         position: absolute;
-        top:2350px;
-        left:-340px;
-        width:670px;
-        padding-top:30px;
+        top: 2350px;
+        left: -340px;
+        width: 670px;
+        padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
-    .item6{
+    .item6 {
         position: absolute;
-        top:5085px;
-        left:300px;
+        top: 5085px;
+        left: 300px;
         z-index: 2;
-
     }
 
-    .text6{
+    .text6 {
         position: absolute;
-        top:2950px;
-        left:-340px;
-        width:670px;
-        padding-top:30px;
+        top: 2950px;
+        left: -340px;
+        width: 670px;
+        padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
-    .item7{
+    .item7 {
         position: absolute;
         top: 6030px;
-        left:300px;
+        left: 300px;
         z-index: 2;
-
     }
 
-    .text7{
+    .text7 {
         position: absolute;
-        top:3440px;
-        left:-340px;
-        width:670px;
-        padding-top:30px;
+        top: 3440px;
+        left: -340px;
+        width: 670px;
+        padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
-    .icon{
-        width:30px;
+    .icon {
+        width: 30px;
         position: absolute;
-        left:860px;
-        top:40px;
+        left: 860px;
+        top: 40px;
         z-index: 0;
     }
-    
-    #counter{
+
+    #counter {
         position: absolute;
-        left:880px;
-        top:47px;
+        left: 880px;
+        top: 47px;
         z-index: 2;
         background-color: #772734;
-        color:white;
+        color: white;
         width: 20px;
         text-align: center;
         border-radius: 50%;
-    
     }
 }

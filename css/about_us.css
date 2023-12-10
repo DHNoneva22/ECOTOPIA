@@ -51,44 +51,44 @@ nav ul li{
 }
 
 .title{
-position: absolute;
-text-align: center;
-font-size: 70px;
-color:rgb(37, 37, 37);
-top:110px;
-left:42%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+  color:rgb(37, 37, 37);
+  top:110px;
+    left:42%;
 }
 .about-us-box{
-background-color: #d9cfd0;
-width:1700px;
-height:700px;
-border-radius: 20px;
-position: absolute;
-left: 90px;
-top:300px;
-border: 1px solid rgba(0, 0, 0, 0.496);
+  background-color: #d9cfd0;
+  width:1700px;
+  height:700px;
+  border-radius: 20px;
+  position: absolute;
+  left: 90px;
+  top:300px;
+  border: 1px solid rgba(0, 0, 0, 0.496);
 }
 
-.story-heading{
-font-size:45px;
-position:absolute;
-top: 80px;
-left:100px;
+.story-heading {
+  font-size: 45px;
+  position: absolute;
+  top: 80px;
+  left: 100px;
 }
 
-.story-text{
-font-size:27px;
-position:absolute;
-top: 200px;
-left:100px;
+.story-text {
+  font-size: 27px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
 }
 
-.story-image{
-width:600px;
-position:absolute;
-left:1060px;
-top:100px;
-border-radius: 10px;
+.story-image {
+  width: 600px;
+  position: absolute;
+  left: 1060px;
+  top: 100px;
+  border-radius: 10px;
 }
 
 .images-box{
@@ -102,11 +102,11 @@ border-radius: 10px;
   box-shadow: 17px 15px 40px 3px  rgb(163, 160, 159);
 }
 
-.Dimi-Name{
-position: absolute;
-left:110px;
-top:40px;
-font-size: 35px;
+.Dimi-Name {
+  position: absolute;
+  left: 110px;
+  top: 40px;
+  font-size: 35px;
 }
 
 .Dimi-role{
@@ -118,13 +118,13 @@ font-size: 35px;
   font-family: 'Cormorant Garamond', serif;
 }
 
-.Dimi-pic{
-width:350px;
-height:350px;
-position: absolute;
-border-radius: 50%;
-left:45px;
-top:150px;
+.Dimi-pic {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-radius: 50%;
+  left: 45px;
+  top: 150px;
 }
 
 .Dimi-Figure{
@@ -133,11 +133,11 @@ top:150px;
   left: 22px;
 }
 
-.Stoyan-Name{
-position: absolute;
-left:536px;
-top:40px;
-font-size: 35px;
+.Stoyan-Name {
+  position: absolute;
+  left: 536px;
+  top: 40px;
+  font-size: 35px;
 }
 
 .Stoyan-role{
@@ -149,13 +149,13 @@ font-size: 35px;
   font-family: 'Cormorant Garamond', serif;
 }
 
-.Stoyan-pic{
-width:350px;
-height:350px;
-position: absolute;
-border-radius: 50%;
-left:480px;
-top:150px;
+.Stoyan-pic {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-radius: 50%;
+  left: 480px;
+  top: 150px;
 }
 
 .Stoyan-Figure{
@@ -164,11 +164,11 @@ top:150px;
   left: 448px;
 }
 
-.Jaki-Name{
-position: absolute;
-left:950px;
-top:40px;
-font-size: 35px;
+.Jaki-Name {
+  position: absolute;
+  left: 950px;
+  top: 40px;
+  font-size: 35px;
 }
 
 .Jaki-role{
@@ -180,13 +180,13 @@ font-size: 35px;
   font-family: 'Cormorant Garamond', serif;
 }
 
-.Jaki-pic{
-width:350px;
-height:350px;
-position: absolute;
-border-radius: 50%;
-left:900px;
-top:150px;
+.Jaki-pic {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-radius: 50%;
+  left: 900px;
+  top: 150px;
 }
 
 .Jaki-Figure{
@@ -195,11 +195,11 @@ top:150px;
   left: 873px;
 }
 
-.Steli-Name{
-position: absolute;
-left:1350px;
-top:40px;
-font-size: 35px;
+.Steli-Name {
+  position: absolute;
+  left: 1350px;
+  top: 40px;
+  font-size: 35px;
 }
 
 .Steli-role{
@@ -211,13 +211,13 @@ font-size: 35px;
   font-family: 'Cormorant Garamond', serif;
 }
 
-.Steli-pic{
-width:350px;
-height:350px;
-position: absolute;
-border-radius: 50%;
-left:1300px;
-top:150px;
+.Steli-pic {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-radius: 50%;
+  left: 1300px;
+  top: 150px;
 }
 
 .Steli-Figure{
@@ -226,36 +226,36 @@ top:150px;
   left: 1272px;
 }
 
-.donate-box{
-background-color: rgb(217, 207, 208);
-width:1700px;
-height:700px;
-border-radius: 20px;
-position: absolute;
-left: 90px;
-top:1900px;
-box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+.donate-box {
+  background-color: rgb(217, 207, 208);
+  width: 1700px;
+  height: 700px;
+  border-radius: 20px;
+  position: absolute;
+  left: 90px;
+  top: 1900px;
+  box-shadow: 17px 15px 40px 3px rgb(178, 166, 164);
 }
 
-.donate-heading{
-font-size:45px;
-position:absolute;
-top:80px;
-left:100px;
+.donate-heading {
+  font-size: 45px;
+  position: absolute;
+  top: 80px;
+  left: 100px;
 }
 
-.donate-text{
-font-size:27px;
-position:absolute;
-top:200px;
-left:100px;
+.donate-text {
+  font-size: 27px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
 }
 
-.Donate-button:hover{
-color:rgb(151, 116, 83);
-background-color:rgb(229, 229, 229);
-transition:all 0.3s ease 0.2s;
-transform: translateY(-20px);
+.Donate-button:hover {
+  color: rgb(151, 116, 83);
+  background-color: rgb(229, 229, 229);
+  transition: all 0.3s ease 0.2s;
+  transform: translateY(-20px);
 }
 
 .video{
@@ -266,36 +266,35 @@ transform: translateY(-20px);
   left: 1000px;
 }
 
-.Forum-box{
-background-color:rgb(104, 112, 130);
-height:700px;
-width:1700px;
-position: absolute;
-top:2700px;
-left:90px;
-border-radius: 20px;
-box-shadow: 17px 15px 40px 3px  rgb(163, 160, 159);
+.Forum-box {
+  background-color: rgb(104, 112, 130);
+  height: 700px;
+  width: 1700px;
+  position: absolute;
+  top: 2700px;
+  left: 90px;
+  border-radius: 20px;
+  box-shadow: 17px 15px 40px 3px rgb(163, 160, 159);
 }
 
-.Left-box{
-background-color: rgb(37, 37, 37);
-width:700px;
-height:550px;
-border-bottom-left-radius: 15px;
-border-top-left-radius: 15px;
-position: absolute;
-top:100px;
-left:150px;
+.Left-box {
+  background-color: rgb(37, 37, 37);
+  width: 700px;
+  height: 550px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
 }
 
-.Forum-heading
-{
-font-size: 80px;
-position: absolute;
-left:90px;
-top:20px;
-color:rgb(178, 166, 164);
-z-index:3;
+.Forum-heading {
+  font-size: 80px;
+  position: absolute;
+  left: 90px;
+  top: 20px;
+  color: rgb(178, 166, 164);
+  z-index: 3;
 }
 
 .leaf{
@@ -306,93 +305,93 @@ z-index:3;
   z-index: 2;
 }
 
-.Right-box{
-background-color:  rgb(178, 166, 164);
-width:700px;
-height:550px;
-border-bottom-right-radius: 15px;
-border-top-right-radius: 15px;
-position: absolute;
-top:100px;
-left:850px;
+.Right-box {
+  background-color: rgb(178, 166, 164);
+  width: 700px;
+  height: 550px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  top: 100px;
+  left: 850px;
 }
 
-.first-name-box{
-width:260px;
-height:40px;
-background-color: whitesmoke;
-border:solid rgb(30, 30, 30) 2px;
-border-radius: 10px;
-position: absolute;
-left:45px;
-top:60px;
-font-size: 20px;
-text-align: center;
+.first-name-box {
+  width: 260px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: solid rgb(30, 30, 30) 2px;
+  border-radius: 10px;
+  position: absolute;
+  left: 45px;
+  top: 60px;
+  font-size: 20px;
+  text-align: center;
 }
 
-.last-name-box{
-width:260px;
-height:40px;
-background-color: whitesmoke;
-border:solid rgb(30, 30, 30) 2px;
-border-radius: 10px;
-position: absolute;
-left:45px;
-top:140px;
-font-size: 20px;
-text-align: center;
+.last-name-box {
+  width: 260px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: solid rgb(30, 30, 30) 2px;
+  border-radius: 10px;
+  position: absolute;
+  left: 45px;
+  top: 140px;
+  font-size: 20px;
+  text-align: center;
 }
 
-.age-box{
-width:260px;
-height:40px;
-background-color: whitesmoke;
-border:solid rgb(30, 30, 30) 2px;
-border-radius: 10px;
-position: absolute;
-left:45px;
-top:220px;
-font-size: 20px;
-text-align: center;
+.age-box {
+  width: 260px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: solid rgb(30, 30, 30) 2px;
+  border-radius: 10px;
+  position: absolute;
+  left: 45px;
+  top: 220px;
+  font-size: 20px;
+  text-align: center;
 }
 
-.E-mail-box{
-width:260px;
-height:40px;
-background-color: whitesmoke;
-border:solid rgb(30, 30, 30) 2px;
-border-radius: 10px;
-position: absolute;
-left:45px;
-top:300px;
-font-size: 20px;
-text-align: center;
+.E-mail-box {
+  width: 260px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: solid rgb(30, 30, 30) 2px;
+  border-radius: 10px;
+  position: absolute;
+  left: 45px;
+  top: 300px;
+  font-size: 20px;
+  text-align: center;
 }
 
-.Phone-number-box{
-width:260px;
-height:40px;
-background-color: whitesmoke;
-border:solid rgb(30, 30, 30) 2px;
-border-radius: 10px;
-position: absolute;
-left:45px;
-top:380px;
-font-size: 20px;
-text-align: center;
+.Phone-number-box {
+  width: 260px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: solid rgb(30, 30, 30) 2px;
+  border-radius: 10px;
+  position: absolute;
+  left: 45px;
+  top: 380px;
+  font-size: 20px;
+  text-align: center;
 }
 
-.Feedback-comment-box{
-width:280px;
-height:360px;
-background-color: whitesmoke;
-border:solid rgb(30, 30, 30) 2px;
-border-radius: 10px;
-position: absolute;
-left:365px;
-top:60px;
-font-size: 20px;
-text-align: center;
+.Feedback-comment-box {
+  width: 280px;
+  height: 360px;
+  background-color: whitesmoke;
+  border: solid rgb(30, 30, 30) 2px;
+  border-radius: 10px;
+  position: absolute;
+  left: 365px;
+  top: 60px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .submit-button{

@@ -95,141 +95,141 @@ nav ul li{
 }
  
 .chart-heading {
-    font-family: "Rubik", sans-serif;
-    color: rgb(3, 48, 71);
-    text-transform: uppercase;
-    font-size: 24px;
-    text-align: center;
-  }
- 
-  .chart-container1 {
-    width: 1500px;
-    z-index: 5;
-  }
- 
-  .chart-container2 {
-    width: 900px;
-    z-index: 5;
-  }
- 
-  .chart-container3 {
-    width: 450px;
-    z-index: 5;
-  }
- 
-  .stats {
-    font-family: "Rubik", sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    margin: 0 auto;
-    width: fit-content;
-    box-shadow: 0 4px 12px -2px rgba(83, 78, 78, 0.3);
-    border-radius: 20px;
-    padding: 8px 32px;
-    color: rgb(3, 48, 71);
-    transition: all 400ms ease;
-    background-color:  rgb(238, 238, 238);
-  }
- 
-  .stats ul {
-    list-style: none;
-    padding: 0;
-  }
- 
-  .stats ul li {
-    font-size: 16px;
-    margin: 20px 20px;
-    text-transform: uppercase;
-  }
- 
-  .stats {
-    font-weight: 700;
-    color: #e63946;
-  }
- 
-.fact1{
+  font-family: "Rubik", sans-serif;
+  color: rgb(3, 48, 71);
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+}
+
+.chart-container1 {
+  width: 1500px;
+  z-index: 5;
+}
+
+.chart-container2 {
+  width: 900px;
+  z-index: 5;
+}
+
+.chart-container3 {
+  width: 450px;
+  z-index: 5;
+}
+
+.stats {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0 auto;
+  width: fit-content;
+  box-shadow: 0 4px 12px -2px rgba(83, 78, 78, 0.3);
+  border-radius: 20px;
+  padding: 8px 32px;
+  color: rgb(3, 48, 71);
+  transition: all 400ms ease;
+  background-color: rgb(238, 238, 238);
+}
+
+.stats ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stats ul li {
+  font-size: 16px;
+  margin: 20px 20px;
+  text-transform: uppercase;
+}
+
+.stats {
+  font-weight: 700;
+  color: #e63946;
+}
+
+.fact1 {
   width: 320px;
-  background-color:rgb(104, 112, 130);
+  background-color: rgb(104, 112, 130);
   position: absolute;
   top: 1300px;
   left: 180px;
   border-radius: 20px;
-  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  box-shadow: 17px 15px 40px 3px rgb(178, 166, 164);
   padding: 20px;
 }
- 
-#first-fact-percentage{
+
+#first-fact-percentage {
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
- 
-#first-fact-description{
+
+#first-fact-description {
   font-size: 18px;
 }
- 
-.fact2{
+
+.fact2 {
   width: 320px;
-  background-color:rgb(104, 112, 130);
+  background-color: rgb(104, 112, 130);
   position: absolute;
   top: 1300px;
   left: 580px;
   border-radius: 20px;
-  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  box-shadow: 17px 15px 40px 3px rgb(178, 166, 164);
   padding: 20px;
 }
- 
-#second-fact-percentage{
+
+#second-fact-percentage {
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
- 
-#second-fact-description{
+
+#second-fact-description {
   font-size: 18px;
 }
- 
-.fact3{
+
+.fact3 {
   width: 320px;
   height: 143px;
-  background-color:rgb(104, 112, 130);
+  background-color: rgb(104, 112, 130);
   position: absolute;
   top: 1300px;
   left: 980px;
   border-radius: 20px;
-  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  box-shadow: 17px 15px 40px 3px rgb(178, 166, 164);
   padding: 20px;
 }
- 
-#third-fact-percentage{
+
+#third-fact-percentage {
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
- 
-#third-fact-description{
+
+#third-fact-description {
   font-size: 18px;
 }
- 
-.fact4{
+
+.fact4 {
   width: 320px;
   height: 143px;
-  background-color:rgb(104, 112, 130);
+  background-color: rgb(104, 112, 130);
   position: absolute;
   top: 1300px;
   left: 1380px;
   border-radius: 20px;
-  box-shadow: 17px 15px 40px 3px  rgb(178, 166, 164);
+  box-shadow: 17px 15px 40px 3px rgb(178, 166, 164);
   padding: 20px;
 }
- 
-#fourth-fact-percentage{
+
+#fourth-fact-percentage {
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
- 
-#fourth-fact-description{
+
+#fourth-fact-description {
   font-size: 18px;
 }
