@@ -6,44 +6,25 @@
   <link rel="stylesheet" href="../css/for-kids.css">
   <title>Recycle Game</title>
 </head>
-<body>
+<body onload="initGame()">
 
-  <div class = "navigation-bar"> 
-    <ul class = "navigation-bar-links">
-        <li><a href = "../html/index.html">Home</a></li>
-        <li><a href = "../html/for-kids.html">For Kids</a></li>
-        <li><a href = "../html/about_us.html" >About us</a></li>
-    </ul>
-</div>
- 
-    <img src = "../images/game/gamebackground.png" class = "background">
-  <div id="home-screen">
-    <button onclick="startGame()">Play</button>
+  <div class="background-image"></div>
+  <div class="container" id="game-container">
+
+    <img id="recycleable1" class="element recycleable" src="../images/game/glass_bottles_materials_ff.jpg">
+    <img id="recycleable2" class="element recycleable" src="../images/game/metal-36867_1280.png">
+    <img id="recycleable3" class="element recycleable" src="../images/game/skynews-plastic-climate_6026260.png">
+    <img id="recycleable4" class="element recycleable" src="../images/game/1-04851-00_BL_Notebook_Paper_Punch_G-600x735.jpg">
+
+    <img id="unrecycleable1" class="element unrecycleable" src="../images/game/alkaline.webp">
+    <img id="unrecycleable2" class="element unrecycleable" src="../images/game/download (2).jpg">
+    <img id="unrecycleable3" class="element unrecycleable" src="../images/game/download (3).jpg">
+    <img id="unrecycleable4" class="element unrecycleable" src="../images/game/download.png">
+
+    <img id="bin" class="bin" src="../images/game/pngtree-silver-trash-bin-clipart-png-image_5947991.jpg">
+
+    <script src="../game/game.js"></script>
   </div>
- 
-  <div id="difficulty-screen" style="display:none;">
-    <h2>Choose Difficulty:</h2>
-    <button onclick="setDifficulty('easy')">Easy</button>
-    <button onclick="setDifficulty('hard')">Hard</button>
-  </div>
- 
-  <div id="avatar-screen" style="display:none;">
-    <h2>Choose Avatar:</h2>
-    <button onclick="setAvatar('racoon')">Racoon</button>
-    <button onclick="setAvatar('squirrel')">Squirrel</button>
-    <button onclick="setAvatar('rat')">Rat</button>
-    <button onclick="setAvatar('possum')">Possum</button>
-  </div>
- 
-  <div id="game-screen" style="display:none;">
-    <h2 class = "title">Recycle Game</h2>
-    <div class = "score-text">
-        <p>Score: <span id="score">0</span></p>
-    </div>
-    <div id="conveyor-belt"></div>
-    <div id="bin" onclick="recycle()"></div>
-  </div>
- 
-  <script src="../game/game.js"></script>
+
 </body>
 </html>

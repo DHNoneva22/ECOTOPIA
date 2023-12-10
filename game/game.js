@@ -1,72 +1,73 @@
-let score = 0;
-let difficulty = '';
-let avatar = '';
- 
-function startGame() {
-  document.getElementById('home-screen').style.display = 'none';
-  document.getElementById('difficulty-screen').style.display = 'block';
-  document.getElementById('game-screen').style.position = 'absolute';
-  document.getElementById('difficulty-screen').style.position = 'absolute';
-  document.getElementById('difficulty-screen').style.top = '500px';
-  document.getElementById('difficulty-screen').style.left = '800px';
+var chooseElement;
+var points = 0;
+const bin = document.querySelector(".bin");
+const pointsDisplay = document.createElement("div");
+
+pointsDisplay.className = "points-display";
+document.body.appendChild(pointsDisplay);
+
+function initGame() {
+  moveElementsRandomly();
 }
- 
-function setDifficulty(diff) {
-  difficulty = diff;
-  document.getElementById('difficulty-screen').style.display = 'none';
-  document.getElementById('avatar-screen').style.display = 'block';
-  document.getElementById('avatar-screen').style.position = 'absolute';
-  document.getElementById('avatar-screen').style.top = '500px';
-  document.getElementById('avatar-screen').style.left = '800px';
-}
- 
-function setAvatar(selectedAvatar) {
-  avatar = selectedAvatar;
-  document.getElementById('avatar-screen').style.display = 'none';
-  document.getElementById('game-screen').style.display = 'block';
-  document.getElementById('game-screen').style.position = 'absolute';
-  document.getElementById('game-screen').style.top = '500px';
-  document.getElementById('game-screen').style.left = '800px';
-  startConveyorBelt();
-}
- 
-function startConveyorBelt() {
-  const conveyorBelt = document.getElementById('conveyor-belt');
- 
-  setInterval(() => {
-    const element = document.createElement('div');
-    element.className = 'conveyor-element';
-    const random = Math.random();
-    element.textContent = random < 0.5 ? 'Recyclable' : 'Non-Recyclable';
-   
-    conveyorBelt.innerHTML = '';
-    conveyorBelt.appendChild(element);
-  }, 2000);
-}
- 
-function recycle() {
-  const bin = document.getElementById('bin');
-  const conveyorElement = document.querySelector('.conveyor-element');
- 
-  if (conveyorElement) {
-    const type = conveyorElement.textContent;
- 
-    if ((type === 'Recyclable' && bin.style.backgroundColor === '#00f') ||
-        (type === 'Non-Recyclable' && bin.style.backgroundColor !== '#00f')) {
-      score -= 1;
-    } else {
-      score += 2;
+
+function moveElementsRandomly() {
+  const elements = document.querySelectorAll(".element");
+
+  elements.forEach((element) => {
+    element.style.left = Math.floor(Math.random() * 900) + "px";
+    element.style.top = Math.floor(Math.random() * 400) + "px";
+
+    element.addEventListener("mousedown", () => {
+      element.style.position = "absolute";
+      chooseElement = element;
+
+      document.onmousemove = (e) => {
+        var x = e.pageX;
+        var y = e.pageY;
+
+        chooseElement.style.left = x - 550 + "px";
+        chooseElement.style.top = y - 645 + "px";
+      };
+    });
+  });
+
+  document.onmouseup = function (e) {
+    if (chooseElement && isColliding(chooseElement, bin)) {
+      handleCollision();
     }
- 
-    document.getElementById('score').textContent = score;
-    conveyorElement.remove();
-  }
+    chooseElement = null;
+  };
 }
- 
-class ConveyorElement {
-    constructor(color, positionX, positionY) {
-      this.color = color;
-      this.positionX = positionX;
-      this.positionY = positionY;
-    }
+
+function handleCollision() {
+  const isRecycleable = chooseElement.classList.contains("recycleable");
+
+  if (isRecycleable) {
+    points += 2;
+  } else {
+    points -= 1;
   }
+
+  updatePointsDisplay();
+
+  chooseElement.style.display = "none";
+
+  chooseElement.style.left = Math.floor(Math.random() * 900) + "px";
+  chooseElement.style.top = Math.floor(Math.random() * 400) + "px";
+}
+
+function isColliding(element1, element2) {
+  const rect1 = element1.getBoundingClientRect();
+  const rect2 = element2.getBoundingClientRect();
+
+  return !(
+    rect1.right < rect2.left ||
+    rect1.left > rect2.right ||
+    rect1.bottom < rect2.top ||
+    rect1.top > rect2.bottom
+  );
+}
+
+function updatePointsDisplay() {
+  pointsDisplay.textContent = "Points: " + points;
+}
