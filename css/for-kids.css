@@ -58,7 +58,7 @@ nav ul li{
 
 .container{
   background-color: rgb(82, 145, 82);
-  width: 1000px;
+  width: 1200px;
   height: 500px;
   word-spacing: 30px;
   position: absolute;
@@ -76,12 +76,38 @@ nav ul li{
   border-radius: 50%;
 }
 
-.bin{
+#RecycleBin{
   top: 45px;
-  left: 0px;
+  left: 500px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   position: absolute;
 }
+#nonRecycleBin{
+  top: 45px;
+  left: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.points-display {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+}
+
 

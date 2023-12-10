@@ -1,21 +1,21 @@
 var chooseElement;
 var points = 0;
-const bin = document.querySelector(".bin");
-const pointsDisplay = document.createElement("div");
-
-pointsDisplay.className = "points-display";
-document.body.appendChild(pointsDisplay);
+const recycleBin = document.querySelector(".recycle-bin");
+const nonRecycleBin = document.querySelector(".non-recycle-bin");
+const pointsDisplay = document.querySelector(".points-display");
+const messageDisplay = document.getElementById("message");
 
 function initGame() {
-  moveElementsRandomly();
-}
+  const allElements = Array.from(document.querySelectorAll('.element'));
+  const randomIndices = getRandomIndices(allElements.length, 16);
 
-function moveElementsRandomly() {
-  const elements = document.querySelectorAll(".element");
+  let currentIndex = 0;
 
-  elements.forEach((element) => {
-    element.style.left = Math.floor(Math.random() * 900) + "px";
-    element.style.top = Math.floor(Math.random() * 400) + "px";
+  function displayNextRandomElement() {
+    const element = allElements[randomIndices[currentIndex]];
+
+
+    
 
     element.addEventListener("mousedown", () => {
       element.style.position = "absolute";
@@ -29,36 +29,77 @@ function moveElementsRandomly() {
         chooseElement.style.top = y - 645 + "px";
       };
     });
-  });
 
-  document.onmouseup = function (e) {
-    if (chooseElement && isColliding(chooseElement, bin)) {
-      handleCollision();
+    document.onmouseup = function (e) {
+      if (chooseElement) {
+        if (isColliding(chooseElement, recycleBin)) {
+          handleCollision(true);
+        } else if (isColliding(chooseElement, nonRecycleBin)) {
+          handleCollision(false);
+        }
+      }
+      chooseElement = null;
+    };
+
+    currentIndex++;
+
+    if (currentIndex < randomIndices.length) {
+      setTimeout(displayNextRandomElement, 900);
     }
-    chooseElement = null;
-  };
+  }
+
+  displayNextRandomElement();
 }
 
-function handleCollision() {
+function getRandomIndices(totalElements, count) {
+  const indices = Array.from({ length: totalElements }, (_, i) => i);
+  const shuffled = indices.sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count);
+}
+
+function handleCollision(isRecycleBin) {
   const isRecycleable = chooseElement.classList.contains("recycleable");
 
-  if (isRecycleable) {
+
+  if ((isRecycleBin && isRecycleable) || (!isRecycleBin && !isRecycleable)) {
     points += 2;
+    showMessage("Good job! +2 points");
   } else {
     points -= 1;
+    showMessage("Oops! -1 point");
   }
+
 
   updatePointsDisplay();
 
+
+  playSound(isRecycleable);
+
+
   chooseElement.style.display = "none";
 
-  chooseElement.style.left = Math.floor(Math.random() * 900) + "px";
-  chooseElement.style.top = Math.floor(Math.random() * 400) + "px";
+
+  showRandomElement();
 }
 
-function isColliding(element1, element2) {
-  const rect1 = element1.getBoundingClientRect();
-  const rect2 = element2.getBoundingClientRect();
+function showRandomElement() {
+  const elements = document.querySelectorAll(".element");
+
+  
+  elements.forEach((element) => (element.style.display = "none"));
+
+
+  const randomIndex = Math.floor(Math.random() * elements.length);
+  const newElement = elements[randomIndex];
+
+
+
+  newElement.style.display = "block";
+}
+
+function isColliding(element, bin) {
+  const rect1 = element.getBoundingClientRect();
+  const rect2 = bin.getBoundingClientRect();
 
   return !(
     rect1.right < rect2.left ||
@@ -70,4 +111,18 @@ function isColliding(element1, element2) {
 
 function updatePointsDisplay() {
   pointsDisplay.textContent = "Points: " + points;
+}
+
+function showMessage(msg) {
+  messageDisplay.textContent = msg;
+  messageDisplay.style.display = "block";
+  setTimeout(() => {
+    messageDisplay.style.display = "none";
+  }, 1500);
+}
+
+function playSound(isRecycleable) {
+  const audio = new Audio();
+  audio.src = isRecycleable ? "./sounds/positive.mp3" : "./sounds/negative.mp3";
+  audio.play();
 }
