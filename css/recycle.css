@@ -4,7 +4,7 @@ body {
   margin: 0px;
   box-sizing: border-box;
   background-color: rgb(238, 238, 238);
-  overflow: hidden;
+ 
 }
 
 li a {
@@ -76,6 +76,12 @@ ul li {
   font-size: 16px;
   gap: 2px;
 }
+.recycle-title{
+  font-size: 60px;
+  left:650px;
+  top:-100px;
+  color: #772734;
+}
 
 .map-container {
   width: 100%;
@@ -91,3 +97,102 @@ h1 {
   top: -70px;
   left: 780px;
 }
+.paper{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  background-color:#772734;
+  top:1000px;
+  left:80px;
+  border-radius: 10px;
+}
+.paper-pic{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left:100px;
+  top:20px
+}
+.plastic{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color:#772734;
+  top:1000px;
+  left:700px;
+  border-radius: 10px;
+}
+.plastic-pic{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left:100px
+}
+.glass{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color:#772734;
+  top:1000px;
+  left:1320px;
+  border-radius: 10px;
+}
+.glass-pic{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left:100px;
+  top:20px;
+  border-radius: 10px;
+}
+.paper-text{
+  position: absolute;
+  font-size: 20px;
+  left:60px;
+  top:350px;
+  color: white;
+}
+.plastic-pic{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left:100px;
+  top:20px;
+  border-radius: 10px;
+}
+.plastic-text{
+  position: absolute;
+  font-size: 20px;
+  top:320px;
+  left:50px;
+  color: white;
+}
+
+.glass-text{
+  position: absolute;
+  font-size: 20px;
+  left:60px;
+  top:350px;
+  color: white;
+}
+
+.paper:hover{
+transition: all 0.3 ease 0.5;
+transform: translateY(-10px);
+width: 510px;
+}
+.plastic:hover{
+  transition: all 0.3 ease 0.5;
+  transform: translateY(-10px);
+  width: 510px;
+  }
+  .glass:hover{
+    transition: all 0.3 ease 0.5;
+    transform: translateY(-10px);
+    width: 510px;
+   
+    }
+
+
+
+
