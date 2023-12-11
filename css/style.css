@@ -15,6 +15,7 @@ li a {
   text-decoration: none;
   font-weight: bold;
   position: relative;
+
 }
 
 a:hover::after {
@@ -29,7 +30,7 @@ a::after {
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 3px;
+  height: 2px;
   background-color: #772734;
   transition: .2s;
 }
@@ -178,6 +179,7 @@ ul li {
   position: absolute;
   left: 1100px;
   top: 280px;
+  
 }
 
 .RRR-headings {
@@ -185,7 +187,7 @@ ul li {
   font-size: 100px;
   color: rgb(37, 37, 37);
   font-family: 'Cormorant Garamond', serif;
-
+  text-decoration: none;
 }
 
 /* Make home page responsive */
