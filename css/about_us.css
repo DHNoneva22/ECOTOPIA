@@ -76,43 +76,34 @@ ul li {
   gap: 2px;
 }
 
-.title{
-  /* Style big about us title */
-  position: absolute;
-  text-align: center;
-  font-size: 70px;
-  color:rgb(37, 37, 37);
-  top:110px;
-  left:42%;
-}
+.title{ 
+/* Style big about us title */ 
+ position: absolute; 
+  text-align: center; 
+  font-size: 70px; 
+  color:rgb(37, 37, 37); 
+  top:110px; 
+  z-index: 2; 
+  left: 750px; 
+  font-size: 140px; 
+  } 
+.recycle-img{ 
+position: relative; 
+  width: 700px; 
+  height: 900px; 
+  left: 250px; 
+  top: -130px; 
+ z-index: 1; 
+   } 
+  
+  .story-text{ 
+    /* Position text */
+  position: absolute; 
+  top:500px; 
+left: 1000px; 
+  font-size:25px; 
+  } 
 
-.about-us-box{
-  /* Style big about us box */
-  background-color: #d9cfd0;
-  width:1700px;
-  height:700px;
-  border-radius: 20px;
-  position: absolute;
-  left: 90px;
-  top:300px;
-  border: 1px solid rgba(0, 0, 0, 0.496);
-}
-
-.story-heading {
-  /* Position heading */
-  font-size: 45px;
-  position: absolute;
-  top: 80px;
-  left: 100px;
-}
-
-.story-text {
-  /* Position text */
-  font-size: 27px;
-  position: absolute;
-  top: 200px;
-  left: 100px;
-}
 
 .story-image {
   /* Position image */
@@ -122,14 +113,22 @@ ul li {
   top: 100px;
   border-radius: 10px;
 }
-
+.team-members{
+  position: absolute; 
+  text-align: center; 
+  font-size: 70px; 
+  color:rgb(19, 18, 18); 
+  top:1000px; 
+  left: 550px; 
+  font-size: 140px; 
+}
 .images-box{
   /* Style big box with images */
   background-color:rgb(104, 112, 130);
   height:700px;
   width:1700px;
   position:absolute;
-  top:1100px;
+  top:1300px;
   left:90px;
   border-radius: 20px;
   box-shadow: 17px 15px 40px 3px  rgb(163, 160, 159);
@@ -275,50 +274,6 @@ ul li {
   left: 1272px;
 }
 
-.donate-box {
-  /* Style the big mission box */
-  background-color: rgb(217, 207, 208);
-  width: 1700px;
-  height: 700px;
-  border-radius: 20px;
-  position: absolute;
-  left: 90px;
-  top: 1900px;
-  box-shadow: 17px 15px 40px 3px rgb(178, 166, 164);
-}
-
-.donate-heading {
-  /* Style mission heading */
-  font-size: 45px;
-  position: absolute;
-  top: 80px;
-  left: 100px;
-}
-
-.donate-text {
-  /* Style mission text */
-  font-size: 27px;
-  position: absolute;
-  top: 200px;
-  left: 100px;
-}
-
-.Donate-button:hover {
-  /* Style donate button */
-  color: rgb(151, 116, 83);
-  background-color: rgb(229, 229, 229);
-  transition: all 0.3s ease 0.2s;
-  transform: translateY(-20px);
-}
-
-.video{
-  /* Style video */
-  position: absolute;
-  width: 640px;
-  height: 430px;
-  top: 130px;
-  left: 1000px;
-}
 
 .Forum-box {
   /* Style big forum box */
@@ -326,7 +281,7 @@ ul li {
   height: 700px;
   width: 1700px;
   position: absolute;
-  top: 2700px;
+  top: 2900px;
   left: 90px;
   border-radius: 20px;
   box-shadow: 17px 15px 40px 3px rgb(163, 160, 159);
