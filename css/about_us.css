@@ -122,156 +122,61 @@ left: 1000px;
   left: 550px; 
   font-size: 140px; 
 }
-.images-box{
-  /* Style big box with images */
-  background-color:rgb(104, 112, 130);
-  height:700px;
-  width:1700px;
-  position:absolute;
-  top:1300px;
-  left:90px;
-  border-radius: 20px;
-  box-shadow: 17px 15px 40px 3px  rgb(163, 160, 159);
-}
-
-.Dimi-Name {
-  /* Style Dimaya name text */
+.Dimi-pic{
   position: absolute;
-  left: 110px;
-  top: 40px;
-  font-size: 35px;
+  width: 280px;
+  height: 290px;
+  top: 1350px;
+  left:1300px;
+  border:2px solid #772734;
 }
-
-.Dimi-role{
-  /* Style Dimaya role text */
-  font-size: 30px;
-  color:white;
+.Jaki-pic{
   position: absolute;
-  top:490px;
-  left:145px;
-  font-family: 'Cormorant Garamond', serif;
+  width: 280px;
+  height: 290px;
+  top: 1570px;
+  left: 990px;
+  border:2px solid #772734;
 }
-
-.Dimi-pic {
-  /* Style Dimaya image */
-  width: 350px;
-  height: 350px;
+.Stoyan-pic{
   position: absolute;
-  border-radius: 50%;
-  left: 45px;
-  top: 150px;
+  width: 280px;
+  height: 290px;
+  top: 1720px;
+  left: 1340px;
+  border:2px solid black;
 }
-
-.Dimi-Figure{
-  /* Style Dimaya figure image */
+.Steli-pic{
   position: absolute;
-  top: 420px;
-  left: 22px;
+  width: 280px;
+  height: 290px;
+  top: 1250px;
+  left:950px;
+  border:2px solid black;
 }
-
-.Stoyan-Name {
-  /* Style Stoyan name text */
+.team{
   position: absolute;
-  left: 536px;
-  top: 40px;
-  font-size: 35px;
+  left:230px;
+  top:1340px;
+  font-size: 25px;
 }
-
-.Stoyan-role{
-  /* Style Stoyan role text */
-  font-size: 30px;
-  color:white;
+.quotation-mark1{
   position: absolute;
-  top:490px;
-  left:535px;
-  font-family: 'Cormorant Garamond', serif;
+  left:230px;
+  top:1530px;
+  font-size: 70px;
 }
-
-.Stoyan-pic {
-  /* Style Stoyan image */
-  width: 350px;
-  height: 350px;
+.quotation-mark2{
   position: absolute;
-  border-radius: 50%;
-  left: 480px;
-  top: 150px;
+  left:670px;
+  top:1660px;
+  font-size: 70px;
 }
-
-.Stoyan-Figure{
-  /* Style Stoyan figure image */
+.citat{
   position: absolute;
-  top: 420px;
-  left: 448px;
-}
-
-.Jaki-Name {
-  /* Style Jaki name text */
-  position: absolute;
-  left: 950px;
-  top: 40px;
-  font-size: 35px;
-}
-
-.Jaki-role{
-  /* Style Jaki role text */
-  font-size: 30px;
-  color:white;
-  position: absolute;
-  top:490px;
-  left:1030px;
-  font-family: 'Cormorant Garamond', serif;
-}
-
-.Jaki-pic {
-  /* Style Jaki image */
-  width: 350px;
-  height: 350px;
-  position: absolute;
-  border-radius: 50%;
-  left: 900px;
-  top: 150px;
-}
-
-.Jaki-Figure{
-  /* Style Jaki figure image */
-  position: absolute;
-  top: 420px;
-  left: 873px;
-}
-
-.Steli-Name {
-  /* Style Steli name text */
-  position: absolute;
-  left: 1350px;
-  top: 40px;
-  font-size: 35px;
-}
-
-.Steli-role{
-  /* Style Steli role text */
-  font-size: 30px;
-  color:white;
-  position: absolute;
-  top:490px;
-  left:1355px;
-  font-family: 'Cormorant Garamond', serif;
-}
-
-.Steli-pic {
-  /* Style Steli image */
-  width: 350px;
-  height: 350px;
-  position: absolute;
-  border-radius: 50%;
-  left: 1300px;
-  top: 150px;
-}
-
-.Steli-Figure{
-  /* Style Steli figure image */
-  position: absolute;
-  top: 420px;
-  left: 1272px;
+  color: #772734;
+  left:260px;
+  top:1650px;
 }
 
 
