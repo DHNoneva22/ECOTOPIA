@@ -10,13 +10,15 @@ function initGame() {
   const randomIndices = getRandomIndices(allElements.length, 16);
 
   let currentIndex = 0;
+  allElements.forEach((e) => {
+    e.style.display = "none";
+  })
 
   function displayNextRandomElement() {
     const element = allElements[randomIndices[currentIndex]];
-
+    element.style.display = "";
 
     
-
     element.addEventListener("mousedown", () => {
       element.style.position = "absolute";
       chooseElement = element;
@@ -39,13 +41,12 @@ function initGame() {
         }
       }
       chooseElement = null;
+      document.onmousemove = null;
     };
 
     currentIndex++;
 
-    if (currentIndex < randomIndices.length) {
-      setTimeout(displayNextRandomElement, 900);
-    }
+    
   }
 
   displayNextRandomElement();
@@ -72,8 +73,6 @@ function handleCollision(isRecycleBin) {
 
   updatePointsDisplay();
 
-
-  playSound(isRecycleable);
 
 
   chooseElement.style.display = "none";
@@ -121,8 +120,11 @@ function showMessage(msg) {
   }, 1500);
 }
 
-function playSound(isRecycleable) {
-  const audio = new Audio();
-  audio.src = isRecycleable ? "./sounds/positive.mp3" : "./sounds/negative.mp3";
-  audio.play();
+
+function EndGame() {
+  if(points < 0 || points > 20)
+  {
+    showMessage("You have won!");
+    
+  }
 }
