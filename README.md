@@ -14,9 +14,9 @@
   
 <h1>📄 Documents</h1>
     
-[Documentation](https://codingburgas-my.sharepoint.com/:w:/r/personal/dhnoneva22_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7BFB5E2E3F-977A-405E-8F22-E3A9425821EE%7D&file=ECOTOPIA.documentation.docx&action=default&mobileredirect=true)
+[Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/dhnoneva22_codingburgas_bg/ET8uXvt6l15AjyLjqUJYIe4BT9ySUf54gq-CDXKBt8Mriw?e=ZVPMOZ)
    
-[Presentation](https://codingburgas-my.sharepoint.com/:p:/r/personal/dhnoneva22_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7BAC8ACBA1-EF61-4E36-801A-3644093077D2%7D&file=ECOTOPIA.presentation.pptx&action=edit&mobileredirect=true)
+[Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/dhnoneva22_codingburgas_bg/EaHLiqxh7zZOgBo2RAkwd9IBZ8co7jC7DMr4VHO35TyF3Q?e=Lz4pXq)
 <h1>Used technologies 🗂</h1>
 <p align="left">
    <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/48/null/visual-studio-code-2019.png" alt="Visual Studio Code 2019"/></a>
