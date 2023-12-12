@@ -2,7 +2,7 @@
 const data = [{
   labels: ['1996', '2000', '2004', '2008', '2012', '2016', '2020'],
   datasets: [{
-    label: 'World Polution',
+    label: 'World Pollution',
     data: [18, 12, 6, 9, 12, 3, 9],
     backgroundColor: [
       'rgba(255, 26, 104, 0.2)',
@@ -27,7 +27,7 @@ const data = [{
 }, {
   labels: ['1996', '2000', '2004', '2008', '2012', '2016', '2020'],
   datasets: [{
-    label: 'World Polution',
+    label: 'World Pollution',
     data: [18, 12, 6, 9, 12, 3, 9],
     backgroundColor: [
       'rgba(255, 26, 104, 0.2)',
@@ -52,7 +52,7 @@ const data = [{
 },  {
   labels: ['1996', '2000', '2004', '2008', '2012', '2016', '2020'],
   datasets: [{
-    label: 'World Polution',
+    label: 'World Pollution',
     data: [18, 12, 6, 9, 12, 3, 9],
     backgroundColor: [
       'rgba(255, 26, 104, 0.2)',
