@@ -42,9 +42,9 @@ a::after {
   width: 100%;
   height: 50px;
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 10;
-  background-color:  rgb(238, 238, 238);
+  background-color: rgb(238, 238, 238);
 }
 
 .logo {
@@ -79,58 +79,58 @@ ul li {
   font-size: 16px;
   gap: 2px;
 }
- 
-.box{
+
+.box {
   /* Colored box style */
   height: 600px;
-  background-color:rgb(104, 112, 130);
+  background-color: rgb(104, 112, 130);
   padding: 0%;
   z-index: 0;
 }
- 
-#box-heading{
+
+#box-heading {
   /* Box heading style */
   color: rgb(196, 190, 190);
   font-size: 90px;
 }
- 
-#box-paragraph{
+
+#box-paragraph {
   /* Box paragraph style */
   position: absolute;
-  top:230px;
+  top: 230px;
   color: rgb(238, 238, 238);
   font-size: 20px;
 }
- 
-.text{
+
+.text {
   /* Site name */
   position: absolute;
-  left:50px;
+  left: 50px;
   top: 90px;
 }
- 
-.chart1{
+
+.chart1 {
   /* First chart */
   position: absolute;
-  top:350px;
+  top: 350px;
   left: 180px;
   z-index: 5;
 }
- 
-.chart2{
+
+.chart2 {
   /* Second chart */
   position: absolute;
-  top:1550px;
+  top: 1550px;
   left: 180px;
 }
- 
-.chart3{
+
+.chart3 {
   /* Third chart */
   position: absolute;
-  top:1550px;
+  top: 1550px;
   left: 1230px;
 }
- 
+
 .chart-heading1 {
   /* First chart heading style */
   font-family: "Rubik", sans-serif;
@@ -177,7 +177,7 @@ ul li {
 }
 
 .stats1 {
-    /* First statement style */
+  /* First statement style */
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -193,7 +193,7 @@ ul li {
 }
 
 .stats2 {
-    /* Second statement style */
+  /* Second statement style */
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -209,7 +209,7 @@ ul li {
 }
 
 .stats3 {
-    /* Third statement style */
+  /* Third statement style */
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -225,55 +225,64 @@ ul li {
 }
 
 .stats1 ul {
+  /* First statement list style */
   list-style: none;
   padding: 0;
 }
 
 .stats1 ul li {
+  /* First statement list style */
   font-size: 16px;
   margin: 20px 20px;
   text-transform: uppercase;
 }
 
 .stats1 {
+  /* First stat style */
   font-weight: 700;
   color: #e63946;
 }
 
 .stats2 ul {
+  /* Second statement list style */
   list-style: none;
   padding: 0;
 }
 
 .stats2 ul li {
+  /* Second statement list style */
   font-size: 16px;
   margin: 20px 20px;
   text-transform: uppercase;
 }
 
 .stats2 {
+  /* Second stat style */
   font-weight: 700;
   color: #e63946;
 }
 
 .stats3 ul {
+  /* Third statement list style */
   list-style: none;
   padding: 0;
 }
 
 .stats3 ul li {
+  /* Third statement list style */
   font-size: 16px;
   margin: 20px 20px;
   text-transform: uppercase;
 }
 
 .stats3 {
+  /* third stat style */
   font-weight: 700;
   color: #e63946;
 }
 
 .fact1 {
-    /* First fact style */
+  /* First fact style */
   width: 320px;
   background-color: rgb(104, 112, 130);
   position: absolute;
@@ -371,57 +380,57 @@ ul li {
 }
 
 @media only screen and (max-width:1000px) {
-  .text{
+  .text {
     position: absolute;
-    left:240px;
+    left: 240px;
   }
 
-  .chart-heading1{
+  .chart-heading1 {
     position: absolute;
-    left:270px;
-    top:300px;
+    left: 270px;
+    top: 300px;
   }
 
-  .chart-heading2{
+  .chart-heading2 {
     position: absolute;
-    left:270px;
-    top:320px;
+    left: 270px;
+    top: 320px;
   }
 
-  .chart-heading3{
+  .chart-heading3 {
     position: absolute;
-    left:250px;
-    top:300px;
+    left: 250px;
+    top: 300px;
   }
 
 
   .stats1 {
     position: absolute;
-    top:400px;
-    left:-140px;
-    width:850px;
+    top: 400px;
+    left: -140px;
+    width: 850px;
   }
 
-  .fact1{
+  .fact1 {
     position: absolute;
     left: 100px;
   }
 
-  .fact2{
+  .fact2 {
     position: absolute;
     left: 550px;
   }
 
-  .fact3{
+  .fact3 {
     position: absolute;
     left: 100px;
-    top:1600px
+    top: 1600px
   }
 
-  .fact4{
+  .fact4 {
     position: absolute;
     left: 550px;
-    top:1600px
+    top: 1600px
   }
 
   .stats2 {
@@ -432,9 +441,9 @@ ul li {
     transition: all 400ms ease;
     background-color: rgb(238, 238, 238);
     position: absolute;
-    top:450px;
-    left:-125px;
-    width:850px;
+    top: 450px;
+    left: -125px;
+    width: 850px;
   }
 
   .stats3 {
@@ -445,9 +454,9 @@ ul li {
     transition: all 400ms ease;
     background-color: rgb(238, 238, 238);
     position: absolute;
-    top:950px;
-    left:-965px;
-    
+    top: 950px;
+    left: -965px;
+
 
   }
 }

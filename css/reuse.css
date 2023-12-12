@@ -18,9 +18,9 @@ li a {
 a:hover::after {
     /* Underline hover effect */
     width: 100%;
-  }
-  
-  a::after {
+}
+
+a::after {
     /* Underline after effect */
     content: "";
     position: absolute;
@@ -30,7 +30,7 @@ a:hover::after {
     height: 2px;
     background-color: #772734;
     transition: .2s;
-  }
+}
 
 .navigation-bar {
     /* Position of navigation bar */
@@ -39,11 +39,11 @@ a:hover::after {
     float: right;
     text-align: right;
     height: 50px;
-   position: fixed;
-   width: 100%;
-   top:0;
-   z-index: 2;
-   background-color:  rgb(238, 238, 238);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(238, 238, 238);
 }
 
 .logo {

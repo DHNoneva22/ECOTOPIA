@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,28 @@
   <link rel="icon" type="image/png" href="../images/logo/ecotopia-logo.png">
   <title>RECYCLE GAME</title>
 </head>
+
+ <!-- Start script on site loading -->
 <body onload="initGame()">
 
-  <div class = "navigation-bar"> 
-    <img src = "../images/logo/ecotopia-logo.png" class = "logo">
-        <ul class = "navigation-bar-links">
-            <li><a href = "../html/index.html" class = "underline">Home</a></li>
-            <li><a href = "../html/for-kids.html" class = "underline">For Kids</a></li>
-            <li><a href = "../html/about_us.html" class = "underline">About us</a></li>
-        </ul>
-    </div>
+ <!-- Navigation bar -->
+  <div class="navigation-bar">
+    <img src="../images/logo/ecotopia-logo.png" class="logo">
+    <ul class="navigation-bar-links">
+      <li><a href="../html/index.html" class="underline">Home</a></li>
+      <li><a href="../html/for-kids.html" class="underline">For Kids</a></li>
+      <li><a href="../html/about_us.html" class="underline">About us</a></li>
+    </ul>
+  </div>
 
+
+   <!-- Set game background -->
   <div class="background-image"></div>
 
   <div class="container" id="game-container">
 
+
+     <!-- Elements suitable for recycling bin -->
     <img id="recycleable1" class="element recycleable" src="../images/game/glass.webp">
     <img id="recycleable2" class="element recycleable" src="../images/game/cans.png">
     <img id="recycleable3" class="element recycleable" src="../images/game/paperTRSP.jpg">
@@ -29,6 +37,8 @@
     <img id="recycleable5" class="element recycleable" src="../images/game/plastic bottles.png">
     <img id="recycleable6" class="element recycleable" src="../images/game/cartons.png">
 
+
+<!-- Elements that aren't suitable for recycling bin -->
     <img id="unrecycleable1" class="element unrecycleable" src="../images/game/coffee cups.jpg">
     <img id="unrecycleable2" class="element unrecycleable" src="../images/game/plastic bag.jpg">
     <img id="unrecycleable3" class="element unrecycleable" src="../images/game/garden waste.png">
@@ -37,9 +47,15 @@
     <img id="unrecycleable6" class="element unrecycleable" src="../images/game/polystyrene.jpg">
 
 
+    <!-- Bins -->
+    <!--Recycling bin -->
     <img id="RecycleBin" class="bin recycle-bin" src="../images/game/recyclebin.png">
+
+    <!-- Non-recycling bin -->
     <img id="nonRecycleBin" class="bin non-recycle-bin" src="../images/game/bin.png">
 
+
+    <!-- Game decorations -->
     <div id="message" class="message"></div>
     <div class="points-display"></div>
 
@@ -47,4 +63,5 @@
   </div>
 
 </body>
+
 </html>

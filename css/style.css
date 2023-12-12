@@ -33,6 +33,7 @@ a::after {
   background-color: #772734;
   transition: .2s;
 }
+
 a {
   width: fit-content;
   position: relative;
@@ -144,6 +145,7 @@ ul li {
 }
 
 @keyframes rotate3d {
+
   /* Transitions of sphere*/
   0% {
     transform: rotate3d(1, 1, 1, 0deg);
