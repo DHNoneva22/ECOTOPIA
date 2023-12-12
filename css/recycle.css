@@ -125,7 +125,7 @@ h1 {
 }
 .paper:hover{
   /* First card hover effect */
-  transition: all 0.3 ease 0.5;
+  transition: all 0.3s ease 0s;
   transform: translateY(-10px);
 }
 .paper-text{
@@ -157,7 +157,7 @@ h1 {
 }
 .plastic:hover{
   /* Second card hover effect */
-  transition: all 0.3 ease 0.5;
+  transition: all 0.3s ease 0s;
   transform: translateY(-10px);
 }
 .plastic-text{
@@ -198,11 +198,108 @@ h1 {
 }
 .glass:hover{
    /* Third card hover effect */
-  transition: all 0.3 ease 0.5;
+  transition: all 0.3s ease 0s;
   transform: translateY(-10px);
    
 }
 
+
+.arrow-left{
+  width:55px;
+  position: absolute;
+  top:1550px;
+  left:130px;
+
+}
+
+.back{
+  position: absolute;
+  top:1555px;
+  left:175px;
+  border:none;
+  width: 100px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.back-link{
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  position: relative;
+}
+
+@media only screen and (max-width:700px) {
+
+  .navigation-bar-links{
+      position: absolute;
+      left:100px;
+      padding: 10px 50px;
+  }
+  
+    .navigation-bar-links{
+      display: inline-block;
+      padding: 10px 67px;
+  }
+  
+    .logo{
+      position: absolute;
+      left:-30px;
+  }
+
+  .recycle-title{
+    position: absolute;
+    left:85px;
+    font-size: 50px;
+  }
+
+  .map-container{
+    width:700px;
+    position: absolute;
+    left:-1px;
+  }
+
+  .paper{
+    position: absolute;
+    left: 100px;
+    top:1000px;
+  }
+
+  .plastic{
+    position: absolute;
+    left: 100px;
+    top:1600px;
+  }
+
+  .glass{
+    position: absolute;
+    left: 100px;
+    top:2200px;
+  }
+
+  .arrow-left{
+    width:50px;
+    position: absolute;
+    top:2745px;
+    left:40px;
+  
+  }
+  
+  .back{
+    position: absolute;
+    top:2750px;
+    left:80px;
+    border:none;
+    width: 100px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .back-link{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    position: relative;
+  }
+}
 
 
 

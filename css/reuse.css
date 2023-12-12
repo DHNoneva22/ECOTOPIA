@@ -38,8 +38,7 @@ a::after {
     padding: 10px 6px;
     float: right;
     text-align: right;
-    height: 75px;
-    height: 70px;
+    height: 50px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -488,10 +487,35 @@ img {
     left: 50px;
 }
 
+.arrow{
+    width:50px;
+    position: absolute;
+    top:3195px;
+    left:1230px;
+
+}
+
+.continue{
+    position: absolute;
+    top:3200px;
+    left:1125px;
+    border:none;
+    width: 100px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.continue-link{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    position: relative;
+}
+
 
 
 /* Make the page responsive */
 @media only screen and (max-width:700px) {
+
 
     .navigation-bar-links{
         position: absolute;
@@ -502,6 +526,7 @@ img {
       .navigation-bar-links{
         display: inline-block;
         padding: 10px 67px;
+        z-index: 10;
     }
     
       .logo{
@@ -540,15 +565,14 @@ img {
 
     .item1 {
         position: absolute;
-        top: 180px;
-        left: 150px;
-        z-index: 0;
+        top: 230px;
+        left: 160px;
     }
 
     .text1 {
         position: absolute;
-        top: 320px;
-        left: -400px;
+        top: 380px;
+        left: -380px;
         width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
@@ -557,15 +581,15 @@ img {
 
     .item2 {
         position: absolute;
-        top: 1100px;
+        top: 1160px;
         left: 160px;
         z-index: 0;
     }
 
     .text2 {
         position: absolute;
-        top: 900px;
-        left: -400px;
+        top: 940px;
+        left: -380px;
         width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
@@ -581,7 +605,7 @@ img {
 
     .text3 {
         position: absolute;
-        top: 1480px;
+        top: 1460px;
         left: -380px;
         width: 500px;
         padding-top: 30px;
@@ -591,14 +615,14 @@ img {
 
     .item4 {
         position: absolute;
-        top: 3270px;
+        top: 3260px;
         left: 160px;
         z-index: 0;
     }
 
     .text4 {
         position: absolute;
-        top: 1970px;
+        top: 1930px;
         left: -380px;
         width: 500px;
         padding-top: 30px;
@@ -608,14 +632,14 @@ img {
 
     .item5 {
         position: absolute;
-        top: 4120px;
-        left: 160px;
+        top: 4100px;
+        left: 170px;
         z-index: 0;
     }
 
     .text5 {
         position: absolute;
-        top: 2410px;
+        top: 2380px;
         left: -380px;
         width: 500px;
         padding-top: 30px;
@@ -625,14 +649,14 @@ img {
 
     .item6 {
         position: absolute;
-        top: 5150px;
-        left: 160px;
+        top: 5115px;
+        left: 170px;
         z-index: 0;
     }
 
     .text6 {
         position: absolute;
-        top: 2950px;
+        top: 2980px;
         left: -380px;
         width: 500px;
         padding-top: 30px;
@@ -643,14 +667,14 @@ img {
     .item7 {
         position: absolute;
         top: 6090px;
-        left: 170px;
+        left: 160px;
         z-index: 0;
     }
 
     .text7 {
         position: absolute;
-        top: 3440px;
-        left: -380px;
+        top: 3470px;
+        left: -3800px;
         width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
@@ -660,7 +684,7 @@ img {
     .icon {
         width: 30px;
         position: absolute;
-        left: 640px;
+        left: 630px;
         top: 40px;
         z-index: 5;
         position: fixed;
@@ -668,9 +692,9 @@ img {
 
     #counter {
         position: absolute;
-        left: 660px;
+        left: 645px;
         top: 47px;
-        z-index: 6;
+        z-index: 5;
         background-color: #772734;
         color: white;
         width: 20px;
@@ -678,4 +702,30 @@ img {
         border-radius: 50%;
         position: fixed;
     }
+
+    .arrow{
+        width:50px;
+        position: absolute;
+        top:6100px;
+        left:90px;
+        z-index: 10;
+    
+    }
+    
+    .continue{
+        position: absolute;
+        top:6110px;
+        left:-20px;
+        border:none;
+        width: 100px;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .continue-link{
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+        position: relative;
+    }
+
 }
