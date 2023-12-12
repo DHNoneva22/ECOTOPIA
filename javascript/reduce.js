@@ -49,11 +49,11 @@ const data = [{
     ],
     borderWidth: 1
   }]
-},  {
+}, {
   labels: ['Mongolia', 'Botswana', 'Pakistan', 'Senegal', 'Saudi Arabia', 'Egypt', 'Arab Emirates'],
   datasets: [{
     label: 'World Polution',
-    data: [279, 216, 198, 145 , 143, 138, 132],
+    data: [279, 216, 198, 145, 143, 138, 132],
     backgroundColor: [
       'rgba(255, 26, 104, 0.2)',
       'rgba(54, 162, 235, 0.2)',
@@ -137,4 +137,3 @@ const pieChart = new Chart(
 // Instantly assign Chart.js version
 const chartVersion = document.getElementById('chartVersion');
 chartVersion.innerText = Chart.version;
-    

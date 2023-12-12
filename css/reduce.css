@@ -387,83 +387,90 @@ ul li {
   font-size: 18px;
 }
 
-.arrow-right{
-  width:70px;
+.arrow-right {
+  /* Alignment for continue arrow */
+  width: 70px;
   position: absolute;
-  top:2150px;
-  left:1730px;
+  top: 2150px;
+  left: 1730px;
 
 }
 
-.continue{
+.continue {
+  /* Alignment for continue link */
   position: absolute;
-  top:2165px;
-  left:1620px;
-  border:none;
+  top: 2165px;
+  left: 1620px;
+  border: none;
   width: 100px;
   font-size: 24px;
   text-align: center;
 }
 
-.continue-link{
+.continue-link {
+  /* Style for continue link */
   text-decoration: none;
   color: rgb(37, 37, 37);
   position: relative;
 }
 
-.arrow-left{
-  width:55px;
+.arrow-left {
+  /* Alignment for back arrow */
+  width: 55px;
   position: absolute;
-  top:2150px;
-  left:130px;
+  top: 2150px;
+  left: 130px;
 
 }
 
-.back{
+.back {
+  /* Alignment for back link */
   position: absolute;
-  top:2155px;
-  left:175px;
-  border:none;
+  top: 2155px;
+  left: 175px;
+  border: none;
   width: 100px;
   font-size: 24px;
   text-align: center;
 }
 
-.back-link{
+.back-link {
+  /* Style for back link */
   text-decoration: none;
   color: rgb(37, 37, 37);
   position: relative;
 }
 
+/* Make the page responsive */
 @media only screen and (max-width:1000px) {
 
-  .navigation-bar-links{
+  .navigation-bar-links {
     position: absolute;
-    left:100px;
+    left: 100px;
     padding: 10px 50px;
-}
-
-  .navigation-bar-links{
-    display: inline-block;
-    padding: 10px 67px;
-}
-
-  .logo{
-    position: absolute;
-    left:-30px;
   }
 
-  .box{
-    height:400px;
+  .navigation-bar-links {
+    display: inline-block;
+    padding: 10px 67px;
+  }
+
+  .logo {
+    position: absolute;
+    left: -30px;
+  }
+
+  .box {
+    height: 400px;
   }
 
   .text1 {
     position: absolute;
     left: 120px;
-    top:100px;
+    top: 100px;
   }
 
-  .text2{
+  .text2 {
     position: absolute;
     left: 220px;
   }
@@ -497,33 +504,33 @@ ul li {
   .fact1 {
     position: absolute;
     left: 80px;
-    top:920px;
-    width:200px;
+    top: 920px;
+    width: 200px;
   }
 
   .fact2 {
     position: absolute;
     left: 390px;
-    top:920px;
-    width:200px;
+    top: 920px;
+    width: 200px;
   }
 
   .fact3 {
     position: absolute;
     left: 80px;
-    top:1220px;
-    width:200px;
+    top: 1220px;
+    width: 200px;
   }
 
   .fact4 {
     position: absolute;
     left: 390px;
-    top:1220px;
-    width:200px;
+    top: 1220px;
+    width: 200px;
   }
 
   .stats2 {
-   position: absolute;
+    position: absolute;
     top: 50px;
     left: -170px;
     width: 600px;
@@ -535,49 +542,49 @@ ul li {
     left: -1130px;
   }
 
-  .arrow-right{
-    width:70px;
+  .arrow-right {
+    width: 70px;
     position: absolute;
-    top:2500px;
-    left:600px;
-  
+    top: 2500px;
+    left: 600px;
+
   }
-  
-  .continue{
+
+  .continue {
     position: absolute;
-    top:2518px;
-    left:500px;
-    border:none;
+    top: 2518px;
+    left: 500px;
+    border: none;
     width: 100px;
     font-size: 24px;
     text-align: center;
   }
-  
-  .continue-link{
+
+  .continue-link {
     text-decoration: none;
     color: rgb(37, 37, 37);
     position: relative;
   }
-  
-  .arrow-left{
-    width:50px;
+
+  .arrow-left {
+    width: 50px;
     position: absolute;
-    top:2515px;
-    left:100px;
-  
+    top: 2515px;
+    left: 100px;
+
   }
-  
-  .back{
+
+  .back {
     position: absolute;
-    top:2520px;
-    left:140px;
-    border:none;
+    top: 2520px;
+    left: 140px;
+    border: none;
     width: 100px;
     font-size: 24px;
     text-align: center;
   }
-  
-  .back-link{
+
+  .back-link {
     text-decoration: none;
     color: rgb(37, 37, 37);
     position: relative;

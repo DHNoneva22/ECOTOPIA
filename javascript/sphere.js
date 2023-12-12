@@ -7,9 +7,8 @@ while (x <= 12) {
   for (y = 1; y <= 36; y++) {
     let spoke = document.createElement('div');
     spoke.className = `spoke spoke-${y}`;
-    spoke.innerHTML = ` <div class="dot" style="background-color:${
-      y % 2 === 0 ? '#772734' : '#772734'
-    }; animation: pulsate .5s infinite ${aDelay(y)}s alternate both"></div>`;
+    spoke.innerHTML = ` <div class="dot" style="background-color:${y % 2 === 0 ? '#772734' : '#772734'
+      }; animation: pulsate .5s infinite ${aDelay(y)}s alternate both"></div>`;
     spoke.style.transform = `rotateZ(${y}0deg)`;
     document.querySelector(`.plane-${x}`).appendChild(spoke);
   }

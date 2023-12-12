@@ -43,9 +43,9 @@ a::after {
   height: 75px;
   position: fixed;
   width: 100%;
-  top:0;
+  top: 0;
   z-index: 2;
-  background-color:  rgb(238, 238, 238);
+  background-color: rgb(238, 238, 238);
 }
 
 .logo {
@@ -81,12 +81,11 @@ ul li {
   gap: 2px;
 }
 
-.recycle-title{
+.recycle-title {
   /* Title style */
-
   font-size: 60px;
-  left:650px;
-  top:-100px;
+  left: 650px;
+  top: -100px;
   color: #772734;
 }
 
@@ -105,201 +104,213 @@ h1 {
   top: -70px;
   left: 780px;
 }
-.paper{
+
+.paper {
   /* First card style */
   width: 500px;
   height: 500px;
   position: absolute;
-  background-color:#772734;
-  top:1000px;
-  left:80px;
+  background-color: #772734;
+  top: 1000px;
+  left: 80px;
   border-radius: 10px;
 }
-.paper-pic{
+
+.paper-pic {
   /* First card pic style */
   position: absolute;
   width: 300px;
   height: 300px;
-  left:100px;
-  top:20px
+  left: 100px;
+  top: 20px
 }
-.paper:hover{
+
+.paper:hover {
   /* First card hover effect */
   transition: all 0.3s ease 0s;
   transform: translateY(-10px);
 }
-.paper-text{
+
+.paper-text {
   /* First card text formating */
   position: absolute;
   font-size: 20px;
-  left:60px;
-  top:350px;
+  left: 60px;
+  top: 350px;
   color: white;
 }
-.plastic{
+
+.plastic {
   /* Second card style */
   position: absolute;
   width: 500px;
   height: 500px;
-  background-color:#772734;
-  top:1000px;
-  left:700px;
+  background-color: #772734;
+  top: 1000px;
+  left: 700px;
   border-radius: 10px;
 }
-.plastic-pic{
+
+.plastic-pic {
   /* Second card pic style */
   position: absolute;
   width: 300px;
   height: 300px;
-  left:100px;
-  top:20px;
+  left: 100px;
+  top: 20px;
   border-radius: 10px;
 }
-.plastic:hover{
+
+.plastic:hover {
   /* Second card hover effect */
   transition: all 0.3s ease 0s;
   transform: translateY(-10px);
 }
-.plastic-text{
+
+.plastic-text {
   /* Second card text formating */
   position: absolute;
   font-size: 20px;
-  top:320px;
-  left:50px;
+  top: 320px;
+  left: 50px;
   color: white;
 }
-.glass{
+
+.glass {
   /* Third card style */
   position: absolute;
   width: 500px;
   height: 500px;
-  background-color:#772734;
-  top:1000px;
-  left:1320px;
+  background-color: #772734;
+  top: 1000px;
+  left: 1320px;
   border-radius: 10px;
 }
-.glass-pic{
-   /* third card pic style */
+
+.glass-pic {
+  /* third card pic style */
   position: absolute;
   width: 300px;
   height: 300px;
-  left:100px;
-  top:20px;
+  left: 100px;
+  top: 20px;
   border-radius: 10px;
 }
 
-.glass-text{
+.glass-text {
   /* Third card text formating */
   position: absolute;
   font-size: 20px;
-  left:60px;
-  top:350px;
+  left: 60px;
+  top: 350px;
   color: white;
 }
-.glass:hover{
-   /* Third card hover effect */
+
+.glass:hover {
+  /* Third card hover effect */
   transition: all 0.3s ease 0s;
   transform: translateY(-10px);
-   
-}
-
-
-.arrow-left{
-  width:55px;
-  position: absolute;
-  top:1550px;
-  left:130px;
 
 }
 
-.back{
+
+.arrow-left {
+  /* Alignment for back arrow */
+  width: 55px;
   position: absolute;
-  top:1555px;
-  left:175px;
-  border:none;
+  top: 1550px;
+  left: 130px;
+
+}
+
+.back {
+  /* Alignment for back link */
+  position: absolute;
+  top: 1555px;
+  left: 175px;
+  border: none;
   width: 100px;
   font-size: 24px;
   text-align: center;
 }
 
-.back-link{
+.back-link {
+  /* Style for back link */
   text-decoration: none;
   color: rgb(37, 37, 37);
   position: relative;
 }
 
+/* Make the page responsive */
 @media only screen and (max-width:700px) {
 
-  .navigation-bar-links{
-      position: absolute;
-      left:100px;
-      padding: 10px 50px;
-  }
-  
-    .navigation-bar-links{
-      display: inline-block;
-      padding: 10px 67px;
-  }
-  
-    .logo{
-      position: absolute;
-      left:-30px;
+  .navigation-bar-links {
+    position: absolute;
+    left: 100px;
+    padding: 10px 50px;
   }
 
-  .recycle-title{
+  .navigation-bar-links {
+    display: inline-block;
+    padding: 10px 67px;
+  }
+
+  .logo {
     position: absolute;
-    left:85px;
+    left: -30px;
+  }
+
+  .recycle-title {
+    position: absolute;
+    left: 85px;
     font-size: 50px;
   }
 
-  .map-container{
-    width:700px;
+  .map-container {
+    width: 700px;
     position: absolute;
-    left:-1px;
+    left: -1px;
   }
 
-  .paper{
+  .paper {
     position: absolute;
     left: 100px;
-    top:1000px;
+    top: 1000px;
   }
 
-  .plastic{
+  .plastic {
     position: absolute;
     left: 100px;
-    top:1600px;
+    top: 1600px;
   }
 
-  .glass{
+  .glass {
     position: absolute;
     left: 100px;
-    top:2200px;
+    top: 2200px;
   }
 
-  .arrow-left{
-    width:50px;
+  .arrow-left {
+    width: 50px;
     position: absolute;
-    top:2745px;
-    left:40px;
-  
+    top: 2745px;
+    left: 40px;
+
   }
-  
-  .back{
+
+  .back {
     position: absolute;
-    top:2750px;
-    left:80px;
-    border:none;
+    top: 2750px;
+    left: 80px;
+    border: none;
     width: 100px;
     font-size: 24px;
     text-align: center;
   }
-  
-  .back-link{
+
+  .back-link {
     text-decoration: none;
     color: rgb(37, 37, 37);
     position: relative;
   }
 }
-
-
-

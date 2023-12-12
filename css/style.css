@@ -35,6 +35,7 @@ a::after {
 }
 
 a {
+  /* Fix underline bug */
   width: fit-content;
   position: relative;
 }
@@ -197,20 +198,20 @@ ul li {
 /* Make home page responsive */
 @media only screen and (max-width:700px) {
 
-  .navigation-bar-links{
+  .navigation-bar-links {
     position: absolute;
-    left:100px;
+    left: 100px;
     padding: 10px 50px;
   }
 
-  .navigation-bar-links{
+  .navigation-bar-links {
     display: inline-block;
     padding: 10px 67px;
   }
 
-  .logo{
+  .logo {
     position: absolute;
-    left:-30px;
+    left: -30px;
   }
 
   .main-wrapper {
@@ -219,7 +220,7 @@ ul li {
 
   .RRR-links {
     position: absolute;
-    left:135px;
+    left: 135px;
     top: 850px;
   }
 
