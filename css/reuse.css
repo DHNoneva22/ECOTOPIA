@@ -38,7 +38,11 @@ a::after {
     padding: 10px 6px;
     float: right;
     text-align: right;
+<<<<<<< HEAD
     height: 75px;
+=======
+    height: 70px;
+>>>>>>> 39794f2db2c4ad0de6f3719172f8380bf34638fe
     position: fixed;
     width: 100%;
     top: 0;

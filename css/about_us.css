@@ -194,7 +194,7 @@ ul li {
   font-size: 70px;
 }
 
-.citat {
+.quote {
   /* Quote formating */
   position: absolute;
   text-align: center;
@@ -202,7 +202,6 @@ ul li {
   left: 335px;
   top: 1700px;
 }
-
 
 .Forum-box {
   /* Style big forum box */
@@ -229,7 +228,6 @@ ul li {
 
 .Forum-heading-one {
   /* Style forum heading */
-  
   font-size: 130px;
   position: absolute;
   left: 370px;
@@ -240,7 +238,6 @@ ul li {
 
 .Forum-heading-two{
  /* Style forum heading */
-  
  font-size: 130px;
  position: absolute;
  left: 500px;
@@ -414,43 +411,10 @@ ul li {
     left: 220px;
   }
 
-  .Dimi-Name {
-    position: absolute;
-    left: 270px;
-  }
-
-  .Dimi-role {
-    position: absolute;
-    left: 320px;
-  }
-
-  .Dimi-Figure {
-    position: absolute;
-    left: 195px;
-  }
-
   .Stoyan-pic {
     position: absolute;
     left: 225px;
     top: 770px;
-  }
-
-  .Stoyan-Name {
-    position: absolute;
-    left: 280px;
-    top: 680px;
-  }
-
-  .Stoyan-role {
-    position: absolute;
-    left: 285px;
-    top: 1110px;
-  }
-
-  .Stoyan-Figure {
-    position: absolute;
-    left: 195px;
-    top: 1040px;
   }
 
   .Jaki-pic {
@@ -465,53 +429,10 @@ ul li {
     top: 1290px;
   }
 
-  .Jaki-role {
-    position: absolute;
-    left: 345px;
-    top: 1730px;
-  }
-
-  .Jaki-Figure {
-    position: absolute;
-    left: 195px;
-    top: 1660px;
-  }
-
   .Steli-pic {
     position: absolute;
     left: 225px;
     top: 1980px;
-  }
-
-  .Steli-Name {
-    position: absolute;
-    left: 270px;
-    top: 1870px;
-  }
-
-  .Steli-role {
-    position: absolute;
-    left: 290px;
-    top: 2310px;
-  }
-
-  .Steli-Figure {
-    position: absolute;
-    left: 195px;
-    top: 2240px;
-  }
-
-  .donate-box {
-    width: 800px;
-    height: 1200px;
-    position: absolute;
-    top: 4000px;
-  }
-
-  .video {
-    position: absolute;
-    top: 670px;
-    left: 90px;
   }
 
   .Forum-box {
@@ -531,13 +452,7 @@ ul li {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
-
-  .leaf {
-    position: absolute;
-    left: 300px;
-    top: 67px;
-  }
-
+  
   .Right-box {
     position: absolute;
     left: 50px;
