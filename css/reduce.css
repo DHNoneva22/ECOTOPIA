@@ -81,6 +81,7 @@ ul li {
 }
  
 .box{
+  /* Colored box style */
   height: 600px;
   background-color:rgb(104, 112, 130);
   padding: 0%;
@@ -88,11 +89,13 @@ ul li {
 }
  
 #box-heading{
+  /* Box heading style */
   color: rgb(196, 190, 190);
   font-size: 90px;
 }
  
 #box-paragraph{
+  /* Box paragraph style */
   position: absolute;
   top:230px;
   color: rgb(238, 238, 238);
@@ -100,12 +103,14 @@ ul li {
 }
  
 .text{
+  /* Site name */
   position: absolute;
   left:50px;
   top: 90px;
 }
  
 .chart1{
+  /* First chart */
   position: absolute;
   top:350px;
   left: 180px;
@@ -113,18 +118,21 @@ ul li {
 }
  
 .chart2{
+  /* Second chart */
   position: absolute;
   top:1550px;
   left: 180px;
 }
  
 .chart3{
+  /* Third chart */
   position: absolute;
   top:1550px;
   left: 1230px;
 }
  
 .chart-heading1 {
+  /* First chart heading style */
   font-family: "Rubik", sans-serif;
   color: rgb(3, 48, 71);
   text-transform: uppercase;
@@ -133,6 +141,7 @@ ul li {
 }
 
 .chart-heading2 {
+  /* Second chart heading style */
   font-family: "Rubik", sans-serif;
   color: rgb(3, 48, 71);
   text-transform: uppercase;
@@ -141,6 +150,7 @@ ul li {
 }
 
 .chart-heading3 {
+  /* Third chart heading style */
   font-family: "Rubik", sans-serif;
   color: rgb(3, 48, 71);
   text-transform: uppercase;
@@ -149,21 +159,25 @@ ul li {
 }
 
 .chart-container1 {
+  /* First chart container style */
   width: 1500px;
   z-index: 5;
 }
 
 .chart-container2 {
+  /* First chart container style */
   width: 900px;
   z-index: 5;
 }
 
 .chart-container3 {
+  /* First chart container style */
   width: 450px;
   z-index: 5;
 }
 
 .stats1 {
+    /* First statement style */
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -179,6 +193,7 @@ ul li {
 }
 
 .stats2 {
+    /* Second statement style */
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -194,6 +209,7 @@ ul li {
 }
 
 .stats3 {
+    /* Third statement style */
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
@@ -257,6 +273,7 @@ ul li {
 }
 
 .fact1 {
+    /* First fact style */
   width: 320px;
   background-color: rgb(104, 112, 130);
   position: absolute;
@@ -268,16 +285,19 @@ ul li {
 }
 
 #first-fact-percentage {
+  /* First fact information style */
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
 
 #first-fact-description {
+  /* First fact additional information style */
   font-size: 18px;
 }
 
 .fact2 {
+  /* Second fact style */
   width: 320px;
   background-color: rgb(104, 112, 130);
   position: absolute;
@@ -289,16 +309,19 @@ ul li {
 }
 
 #second-fact-percentage {
+  /* Second fact information style */
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
 
 #second-fact-description {
+  /* Second fact additional information style */
   font-size: 18px;
 }
 
 .fact3 {
+  /* Third fact style */
   width: 320px;
   height: 143px;
   background-color: rgb(104, 112, 130);
@@ -311,16 +334,19 @@ ul li {
 }
 
 #third-fact-percentage {
+  /* Third fact information style */
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
 
 #third-fact-description {
+  /* Third fact additional information style */
   font-size: 18px;
 }
 
 .fact4 {
+  /* Fourth fact style */
   width: 320px;
   height: 143px;
   background-color: rgb(104, 112, 130);
@@ -333,12 +359,14 @@ ul li {
 }
 
 #fourth-fact-percentage {
+  /* Fourth fact information style */
   color: rgb(196, 190, 190);
   font-size: 30px;
   font-weight: bold;
 }
 
 #fourth-fact-description {
+  /* Fourth fact additional information style */
   font-size: 18px;
 }
 
