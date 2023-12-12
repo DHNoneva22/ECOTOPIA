@@ -368,98 +368,170 @@ ul li {
 
 /* Make page responsive */
 @media only screen and (max-width:1000px) {
+  
+  .navigation-bar-links{
+    position: absolute;
+    left:100px;
+    padding: 10px 50px;
+  }
+
+  .navigation-bar-links{
+    display: inline-block;
+    padding: 10px 67px;
+  }
+
+  .logo{
+    position: absolute;
+    left:-30px;
+  }
+
   .title {
     position: absolute;
-    left: 350px;
+    left: 30px;
   }
 
-  .about-us-box {
-    width: 800px;
+  .recycle-img{
     position: absolute;
-    left: 80px;
-    height: 1000px;
+    left:50px;
+    top:100px;
   }
 
-  .story-heading {
+  .story-text{
     position: absolute;
-    left: 270px;
-    top: 30px;
+    left:50px;
+    top:1000px;
   }
 
-  .story-text {
+  .team{
     position: absolute;
-    top: 150px;
-    left: 80px;
-    width: 500px;
+    left:150px;
+    top:1700px;
   }
 
-  .story-image {
+  .quote{
     position: absolute;
-    top: 550px;
-    left: 120px;
+    top:2050px;
+    left:150px;
   }
 
-  .images-box {
-    width: 800px;
-    height: 2500px;
+  .quotation-mark1{
     position: absolute;
-    top: 1430px;
+    left:110px;
+    top:1950px;
   }
 
-  .Dimi-pic {
+  .quotation-mark2{
     position: absolute;
-    left: 220px;
+    left:560px;
+    top:2060px;
   }
 
-  .Stoyan-pic {
+  .team-members{
     position: absolute;
-    left: 225px;
-    top: 770px;
+    top:1200px;
+    left:30px;
   }
 
-  .Jaki-pic {
+  .Dimi-pic{
     position: absolute;
-    left: 225px;
-    top: 1400px;
+    left:350px;
+    top:2320px;
   }
 
-  .Jaki-Name {
+  .Jaki-pic{
     position: absolute;
-    left: 280px;
-    top: 1290px;
+    left:40px;
+    top:2620px;
   }
 
-  .Steli-pic {
+  .Stoyan-pic{
     position: absolute;
-    left: 225px;
-    top: 1980px;
+    left:350px;
+    top:2660px;
   }
 
-  .Forum-box {
-    width: 800px;
-    height: 1230px;
+  .Steli-pic{
     position: absolute;
-    top: 5300px;
-
+    left:40px;
+    top:2280px;
   }
 
-  .Left-box {
+  .Forum-box{
+    width:600px;
+    height:800px;
     position: absolute;
-    left: 50px;
-    top: 80px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    left:60px;
+    top:3100px;
+  }
+
+  .Forum-heading-one{
+    position: absolute;
+    font-size: 100px;
+    left:200px;
+    top: 500px;
+  }
+
+  .Forum-heading-two{
+    position: absolute;
+    font-size: 100px;
+    left:400px;
+    top: 600px;
+  }
+
+  .Right-box{
+    position: absolute;
+    left:-30px;
+    top: 3500px;
+  }
+
+  .first-name-box{
+    width:250px;
+    position: absolute;
+    left:110px;
+    top:-100px;
+  }
+
+  .last-name-box{
+    width:250px;
+    position: absolute;
+    left:110px;
+    top:-30px;
+  }
+
+  .age-box{
+    width:250px;
+    position: absolute;
+    left:110px;
+    top:40px;
+  }
+
+  .E-mail-box{
+    width:250px;
+    position: absolute;
+    left:110px;
+    top:110px;
+  }
+
+  .Phone-number-box{
+    width:250px;
+    position: absolute;
+    left:110px;
+    top:180px;
+  }
+
+  .Feedback-comment-box{
+    width:250px;
+    position: absolute;
+    left:410px;
+    top:-100px;
+    height:320px;
+  }
+
+  .submit-button{
+    position: absolute;
+    top:300px;
+    left:290px;
   }
   
-  .Right-box {
-    position: absolute;
-    left: 50px;
-    top: 630px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
+  
 }
