@@ -4,6 +4,7 @@ body {
   margin: 0px;
   box-sizing: border-box;
   background-color: rgb(238, 238, 238);
+  overflow-x: hidden;
 }
 
 li a {
@@ -205,65 +206,67 @@ ul li {
 
 .Forum-box {
   /* Style big forum box */
-  background-color: rgb(104, 112, 130);
-  height: 700px;
+  border: solid 2px #333;
+  height: 600px;
   width: 1700px;
   position: absolute;
-  top: 2900px;
+  top: 2300px;
   left: 90px;
   border-radius: 20px;
-  box-shadow: 17px 15px 40px 3px rgb(163, 160, 159);
+ 
 }
 
 .Left-box {
   /* Style left box */
-  background-color: rgb(37, 37, 37);
-  width: 700px;
+  width: 1400px;
   height: 550px;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   position: absolute;
-  top: 100px;
-  left: 150px;
+  top: -550px;
+  left: -180px;;
 }
 
-.Forum-heading {
+.Forum-heading-one {
   /* Style forum heading */
-  font-size: 80px;
+  
+  font-size: 130px;
   position: absolute;
-  left: 90px;
-  top: 20px;
+  left: 370px;
+  top: 620px;
   color: rgb(178, 166, 164);
   z-index: 3;
 }
 
-.leaf {
-  /* Style leaf image */
-  position: absolute;
-  width: 450px;
-  top: 87px;
-  left: 400px;
-  z-index: 2;
+.Forum-heading-two{
+ /* Style forum heading */
+  
+ font-size: 130px;
+ position: absolute;
+ left: 500px;
+ top: 770px;
+ color: #333;
+ z-index: 3;
 }
+
 
 .Right-box {
   /* Style right forum box */
-  background-color: rgb(178, 166, 164);
-  width: 700px;
+  width: 800px;
   height: 550px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   position: absolute;
-  top: 100px;
-  left: 850px;
+  top: 2350px;
+  right: 50px;
 }
 
 .first-name-box {
   /* Style first name input box */
   width: 260px;
   height: 40px;
-  background-color: whitesmoke;
-  border: solid rgb(30, 30, 30) 2px;
+  background-color: #333;
+  border-bottom: solid 1px white;
   border-radius: 10px;
   position: absolute;
   left: 45px;
@@ -276,8 +279,8 @@ ul li {
   /* Style last name input box */
   width: 260px;
   height: 40px;
-  background-color: whitesmoke;
-  border: solid rgb(30, 30, 30) 2px;
+  background-color: #333;
+  border-bottom: solid 1px white;
   border-radius: 10px;
   position: absolute;
   left: 45px;
@@ -290,8 +293,8 @@ ul li {
   /* Style age input box */
   width: 260px;
   height: 40px;
-  background-color: whitesmoke;
-  border: solid rgb(30, 30, 30) 2px;
+  background-color: #333;
+  border-bottom: solid 1px white;
   border-radius: 10px;
   position: absolute;
   left: 45px;
@@ -304,8 +307,8 @@ ul li {
   /* Style e-mail input box */
   width: 260px;
   height: 40px;
-  background-color: whitesmoke;
-  border: solid rgb(30, 30, 30) 2px;
+  background-color: #333;
+  border-bottom: solid 1px white;
   border-radius: 10px;
   position: absolute;
   left: 45px;
@@ -318,8 +321,8 @@ ul li {
   /* Style phone number input box */
   width: 260px;
   height: 40px;
-  background-color: whitesmoke;
-  border: solid rgb(30, 30, 30) 2px;
+  background-color: #333;
+  border-bottom: solid 1px white;
   border-radius: 10px;
   position: absolute;
   left: 45px;
