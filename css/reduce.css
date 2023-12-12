@@ -102,12 +102,21 @@ ul li {
   font-size: 20px;
 }
 
-.text {
+.text1 {
   /* Site name */
   position: absolute;
   left: 50px;
   top: 90px;
 }
+
+.text2 {
+  /* Site name */
+  position: absolute;
+  left: 70px;
+  top: 90px;
+  font-size: 25px;
+}
+
 
 .chart1 {
   /* First chart */
@@ -380,83 +389,103 @@ ul li {
 }
 
 @media only screen and (max-width:1000px) {
-  .text {
+
+  .navigation-bar-links{
     position: absolute;
-    left: 240px;
+    left:100px;
+    padding: 10px 50px;
+}
+
+  .navigation-bar-links{
+    display: inline-block;
+    padding: 10px 67px;
+}
+
+  .logo{
+    position: absolute;
+    left:-30px;
+  }
+
+  .box{
+    height:400px;
+  }
+
+  .text1 {
+    position: absolute;
+    left: 120px;
+    top:100px;
+  }
+
+  .text2{
+    position: absolute;
+    left: 220px;
   }
 
   .chart-heading1 {
     position: absolute;
-    left: 270px;
-    top: 300px;
+    left: 120px;
+    top: 120px;
   }
 
   .chart-heading2 {
     position: absolute;
-    left: 270px;
-    top: 320px;
+    left: 130px;
+    top: -60px;
   }
 
   .chart-heading3 {
     position: absolute;
     left: 250px;
-    top: 300px;
+    top: 350px;
   }
 
 
   .stats1 {
     position: absolute;
-    top: 400px;
-    left: -140px;
-    width: 850px;
+    top: 220px;
+    left: -170px;
+    width: 600px;
   }
 
   .fact1 {
     position: absolute;
-    left: 100px;
+    left: 80px;
+    top:920px;
+    width:200px;
   }
 
   .fact2 {
     position: absolute;
-    left: 550px;
+    left: 390px;
+    top:920px;
+    width:200px;
   }
 
   .fact3 {
     position: absolute;
-    left: 100px;
-    top: 1600px
+    left: 80px;
+    top:1220px;
+    width:200px;
   }
 
   .fact4 {
     position: absolute;
-    left: 550px;
-    top: 1600px
+    left: 390px;
+    top:1220px;
+    width:200px;
   }
 
   .stats2 {
-    box-shadow: 0 4px 12px -2px rgba(83, 78, 78, 0.3);
-    border-radius: 20px;
-    padding: 8px 32px;
-    color: rgb(3, 48, 71);
-    transition: all 400ms ease;
-    background-color: rgb(238, 238, 238);
     position: absolute;
-    top: 450px;
-    left: -125px;
-    width: 850px;
+    top: 50px;
+    left: -170px;
+    width: 600px;
   }
 
   .stats3 {
-    box-shadow: 0 4px 12px -2px rgba(83, 78, 78, 0.3);
-    border-radius: 20px;
-    padding: 8px 32px;
-    color: rgb(3, 48, 71);
-    transition: all 400ms ease;
-    background-color: rgb(238, 238, 238);
     position: absolute;
-    top: 950px;
-    left: -965px;
-
+    top: 450px;
+    left: -1130px;
 
   }
 }

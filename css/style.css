@@ -195,14 +195,31 @@ ul li {
 }
 
 /* Make home page responsive */
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:700px) {
+
+  .navigation-bar-links{
+    position: absolute;
+    left:100px;
+    padding: 10px 50px;
+  }
+
+  .navigation-bar-links{
+    display: inline-block;
+    padding: 10px 67px;
+  }
+
+  .logo{
+    position: absolute;
+    left:-30px;
+  }
+
   .main-wrapper {
-    margin-left: 60px;
+    margin-left: 20px;
   }
 
   .RRR-links {
     position: absolute;
-    left: 300px;
+    left:135px;
     top: 850px;
   }
 
@@ -210,6 +227,5 @@ ul li {
     font-size: 100px;
     color: rgb(37, 37, 37);
     font-family: 'Cormorant Garamond', serif;
-
   }
 }

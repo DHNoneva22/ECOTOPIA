@@ -1,9 +1,9 @@
 // setup 
 const data = [{
-  labels: ['1996', '2000', '2004', '2008', '2012', '2016', '2020'],
+  labels: ['Buriganga, Bangladesh', 'Marilao, Philippines', 'Songhua, China', 'Passing River, Philippines', 'Citarum, Indonesia', 'Yellow River, China '],
   datasets: [{
-    label: 'World Pollution',
-    data: [18, 12, 6, 9, 12, 3, 9],
+    label: 'World Polution',
+    data: [80, 68, 75, 54, 49, 51, 78],
     backgroundColor: [
       'rgba(255, 26, 104, 0.2)',
       'rgba(54, 162, 235, 0.2)',
@@ -27,8 +27,8 @@ const data = [{
 }, {
   labels: ['1996', '2000', '2004', '2008', '2012', '2016', '2020'],
   datasets: [{
-    label: 'World Pollution',
-    data: [18, 12, 6, 9, 12, 3, 9],
+    label: 'World Polution',
+    data: [12, 24, 26, 34, 39, 63, 80],
     backgroundColor: [
       'rgba(255, 26, 104, 0.2)',
       'rgba(54, 162, 235, 0.2)',
@@ -50,10 +50,10 @@ const data = [{
     borderWidth: 1
   }]
 },  {
-  labels: ['1996', '2000', '2004', '2008', '2012', '2016', '2020'],
+  labels: ['Mongolia', 'Botswana', 'Pakistan', 'Senegal', 'Saudi Arabia', 'Egypt', 'Arab Emirates'],
   datasets: [{
-    label: 'World Pollution',
-    data: [18, 12, 6, 9, 12, 3, 9],
+    label: 'World Polution',
+    data: [279, 216, 198, 145 , 143, 138, 132],
     backgroundColor: [
       'rgba(255, 26, 104, 0.2)',
       'rgba(54, 162, 235, 0.2)',

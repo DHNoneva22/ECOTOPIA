@@ -491,7 +491,23 @@ img {
 
 
 /* Make the page responsive */
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:700px) {
+
+    .navigation-bar-links{
+        position: absolute;
+        left:100px;
+        padding: 10px 50px;
+    }
+    
+      .navigation-bar-links{
+        display: inline-block;
+        padding: 10px 67px;
+    }
+    
+      .logo{
+        position: absolute;
+        left:-30px;
+    }
 
     #item1 {
         width: 0px;
@@ -524,15 +540,16 @@ img {
 
     .item1 {
         position: absolute;
-        top: 230px;
-        left: 300px;
+        top: 180px;
+        left: 150px;
+        z-index: 0;
     }
 
     .text1 {
         position: absolute;
         top: 320px;
-        left: -330px;
-        width: 670px;
+        left: -400px;
+        width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
@@ -540,16 +557,16 @@ img {
 
     .item2 {
         position: absolute;
-        top: 1130px;
-        left: 300px;
-        z-index: 2;
+        top: 1100px;
+        left: 160px;
+        z-index: 0;
     }
 
     .text2 {
         position: absolute;
         top: 900px;
-        left: -330px;
-        width: 670px;
+        left: -400px;
+        width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
@@ -557,16 +574,16 @@ img {
 
     .item3 {
         position: absolute;
-        top: 2250px;
-        left: 300px;
-        z-index: 2;
+        top: 2300px;
+        left: 160px;
+        z-index: 0;
     }
 
     .text3 {
         position: absolute;
-        top: 1430px;
-        left: -340px;
-        width: 670px;
+        top: 1480px;
+        left: -380px;
+        width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
@@ -574,16 +591,16 @@ img {
 
     .item4 {
         position: absolute;
-        top: 3200px;
-        left: 300px;
-        z-index: 2;
+        top: 3270px;
+        left: 160px;
+        z-index: 0;
     }
 
     .text4 {
         position: absolute;
-        top: 1900px;
-        left: -340px;
-        width: 670px;
+        top: 1970px;
+        left: -380px;
+        width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
@@ -591,16 +608,16 @@ img {
 
     .item5 {
         position: absolute;
-        top: 4080px;
-        left: 300px;
-        z-index: 2;
+        top: 4120px;
+        left: 160px;
+        z-index: 0;
     }
 
     .text5 {
         position: absolute;
-        top: 2350px;
-        left: -340px;
-        width: 670px;
+        top: 2410px;
+        left: -380px;
+        width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
@@ -608,16 +625,16 @@ img {
 
     .item6 {
         position: absolute;
-        top: 5085px;
-        left: 300px;
-        z-index: 2;
+        top: 5150px;
+        left: 160px;
+        z-index: 0;
     }
 
     .text6 {
         position: absolute;
         top: 2950px;
-        left: -340px;
-        width: 670px;
+        left: -380px;
+        width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
@@ -625,16 +642,16 @@ img {
 
     .item7 {
         position: absolute;
-        top: 6030px;
-        left: 300px;
-        z-index: 2;
+        top: 6090px;
+        left: 170px;
+        z-index: 0;
     }
 
     .text7 {
         position: absolute;
         top: 3440px;
-        left: -340px;
-        width: 670px;
+        left: -380px;
+        width: 500px;
         padding-top: 30px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
         border-radius: 15px;
@@ -643,20 +660,22 @@ img {
     .icon {
         width: 30px;
         position: absolute;
-        left: 860px;
+        left: 640px;
         top: 40px;
-        z-index: 0;
+        z-index: 5;
+        position: fixed;
     }
 
     #counter {
         position: absolute;
-        left: 880px;
+        left: 660px;
         top: 47px;
-        z-index: 3;
+        z-index: 6;
         background-color: #772734;
         color: white;
         width: 20px;
         text-align: center;
         border-radius: 50%;
+        position: fixed;
     }
 }
