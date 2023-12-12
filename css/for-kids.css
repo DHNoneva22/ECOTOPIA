@@ -109,8 +109,8 @@ ul li {
 .element {
   /* individual formating */
   margin-top: 300px;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   left: 200px;
 }
@@ -118,19 +118,19 @@ ul li {
 #RecycleBin {
   /* Recycling bin styling */
   top: 45px;
-  left: 800px;
-  width: 170px;
-  height: 170px;
+  left: 900px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   position: absolute;
 }
 
 #nonRecycleBin {
   /* Non-recycling bin styling */
-  top: 45px;
-  left: 200px;
-  width: 170px;
-  height: 170px;
+  top: 380px;
+  left: 900px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   position: absolute;
 }
@@ -139,7 +139,7 @@ ul li {
   /* Score formating */
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 20px;
   font-size: 24px;
   color: white;
 }
@@ -147,7 +147,7 @@ ul li {
 .message {
   /* Message formating */
   position: absolute;
-  top: 50%;
+  top: 60px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
@@ -155,14 +155,235 @@ ul li {
 }
 
 #game-container {
+  /* Hide content */
   display: none;
 }
 
 #startButton {
+  /* Add active animations to the button */
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   padding: 10px;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+}
+
+#startButton:active {
+  /* Add active animations to the button */
+  scale: 0.92;
+}
+
+#startButton:hover {
+  /* Add active animations to the button */
+  background: rgb(2, 29, 78);
+  background: linear-gradient(270deg, rgba(85, 94, 112, 0.681) 0%, rgba(37, 44, 44, 0.873) 60%);
+  color: rgb(255, 255, 255);
+}
+
+#showInstructionsbtn {
+  /* Add active animations to the button */
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 10px;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+}
+
+#showInstructionbtn:active {
+  /* Add active animations to the button */
+  scale: 0.92;
+}
+
+#showInstructionsbtn:hover {
+  /* Add active animations to the button */
+  background: rgb(2, 29, 78);
+  background: linear-gradient(270deg, rgba(85, 94, 112, 0.681) 0%, rgba(37, 44, 44, 0.873) 60%);
+  color: rgb(255, 255, 255);
+}
+
+.Start-the-game {
+  /* style container info */
+  background-color: rgb(104, 112, 130);
+  width: 1200px;
+  height: 600px;
+  word-spacing: 30px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Game-instructions {
+  /* style container info */
+  background: rgb(134, 145, 170);
+  width: 1200px;
+  height: 600px;
+  word-spacing: 0px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rules-heading {
+  /* fix heading position */
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  color: white
+}
+
+
+.can-recycle {
+  /* fix heading position */
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  color: white;
+}
+
+.can-recycle-list {
+  /* fix list item position */
+  position: absolute;
+  left: 10px;
+  top: 130px;
+}
+
+.can-recycle-rule {
+  /* fix list item position */
+  font-size: 24px;
+  color: white;
+}
+
+.cannot-recycle {
+  /* fix list item position */
+  position: absolute;
+  top: 350px;
+  left: 50px;
+  color: white;
+}
+
+.cannot-recycle-list {
+  /* fix list item position */
+  position: absolute;
+  left: 10px;
+  top: 390px;
+}
+
+.cannot-recycle-rule {
+  /* fix list item position */
+  font-size: 24px;
+  color: white;
+}
+
+#gameInstructions {
+  /* Hide content */
+  display: none;
+}
+
+/* Character styling */
+#mouse {
+  position: absolute;
+  width: 550px;
+  left: 170px;
+  top: 80px;
+}
+
+
+#circle {
+  /* Setting form for list contents */
+  list-style-type: circle;
+}
+
+#circle2 {
+  /* Setting form for list contents */
+  list-style-type: circle;
+}
+
+#RetryScrnPositive {
+  /* Hide contents */
+  display: none;
+}
+
+#RetryScrnNegative {
+  /* Hide contents */
+  display: none;
+}
+
+.Retry-screen {
+  /* Style the container */
+  background-color: rgb(196, 190, 190);
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Retry-screen-heading1 {
+  /* Fix heading position */
+  position: absolute;
+  top: 30px;
+  left: 520px;
+}
+
+.Retry-screen-heading2 {
+  /* Fix heading position */
+  position: absolute;
+  top: 30px;
+  left: 410px;
+}
+
+.Retry-screen-text {
+  /* Fix text position */
+  position: absolute;
+  font-size: 30px;
+  left: 480px;
+  top: 250px;
 }

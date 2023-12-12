@@ -23,8 +23,51 @@
     </ul>
   </div>
 
-  <!-- Start button -->
-  <button id="startButton" onclick="startGame()">Start Game</button>
+  <!-- Functional buttons -->
+  <div id="STG" class="Start-the-game">
+    <button id="startButton" class="startbutton" onclick="startGame()">Start Game</button>
+    <button id="showInstructionsbtn" class="showInstructions" onclick="showInstructions()">Show instructions</button>
+  </div>
+
+  <!-- Game instructions -->
+  <div id="gameInstructions" class="Game-instructions">
+    <h1 class="Rules-heading">Rules</h1>
+    <h2 class="can-recycle">Items that can be recycled:</h2>
+    <ul id="circle" class="can-recycle-list">
+      <li class="can-recycle-rule">Paper: office paper, magazines, newspapers and junk mail.<br></li>
+      <li class="can-recycle-rule">Cardboard.<br></li>
+      <li class="can-recycle-rule">Green, clear and brown glass bottles and jars.<br></li>
+      <li class="can-recycle-rule">Juice and milk cartons.<br></li>
+      <li class="can-recycle-rule">All hard plastic bottles and containers marked, but no lids please.<br></li>
+      <li class="can-recycle-rule">Steel (tin) and aluminium cans and empty aerosols.<br></li>
+    </ul>
+
+    <h2 class="cannot-recycle">Items that cannot be recycled:<br></h2>
+    <ul id="circle2" class="cannot-recycle-list">
+      <li class="cannot-recycle-rule">Plastic bags or recyclables inside plastic bags.<br></li>
+      <li class="cannot-recycle-rule">Takeaway coffee cups.<br></li>
+      <li class="cannot-recycle-rule">Garden waste.<br></li>
+      <li class="cannot-recycle-rule">Polystyrene (foam).<br></li>
+      <li class="cannot-recycle-rule">Bubble wrap.<br></li>
+      <li class="cannot-recycle-rule">Light bulbs.<br></li>
+    </ul>
+    <button id="startButton" class="startbutton" onclick="startGame()">Start Game</button>
+  </div>
+
+  <!-- End of game screen -->
+  <div id="RetryScrnPositive" class="Retry-screen">
+    <h1 class="Retry-screen-heading1">Great job!</h1>
+    <p class="Retry-screen-text">Want to try again? -></p>
+    <button id="startButton" class="startbutton" onclick="startGame()">Try again</button>
+  </div>
+
+  <!-- End of game screen -->
+  <div id="RetryScrnNegative" class="Retry-screen">
+    <h1 class="Retry-screen-heading2">Game over! Better luck next time!</h1>
+    <p class="Retry-screen-text">Want to try again? -></p>
+    <button id="startButton" class="startbutton" onclick="startGame()">Try again</button>
+  </div>
+
   <div class="container" id="game-container">
 
     <!-- Elements suitable for recycling bin -->
@@ -43,6 +86,9 @@
     <img id="unrecycleable4" class="element unrecycleable" src="../images/game/lightbulb.png">
     <img id="unrecycleable5" class="element unrecycleable" src="../images/game/bubble wrap.webp">
     <img id="unrecycleable6" class="element unrecycleable" src="../images/game/polystyrene.jpg">
+
+    <!-- Game character -->
+    <img id="mouse" class="character" src="../images/game/Character2.png">
 
 
     <!-- Bins -->

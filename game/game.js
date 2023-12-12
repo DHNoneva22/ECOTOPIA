@@ -9,13 +9,38 @@ const nonRecycleBin = document.querySelector(".non-recycle-bin");
 const pointsDisplay = document.querySelector(".points-display");
 const messageDisplay = document.getElementById("message");
 
+/* --> Code that tracks if you have clicked on the "startButton" <-- */
 document.getElementById("startButton").addEventListener("click", startGame);
 
 function startGame() {
-  // Set up game when the start button is pressed
   document.getElementById("startButton").style.display = "none"; // Hide the start button
-  document.getElementById("game-container").style.display = "flex"; // Show the game-container
-  initGame(); // Initialize the game
+  document.getElementById("game-container").style.display = "flex"; // Show the game container
+  initGame();
+}
+
+function showInstructions() {
+  document.getElementById("STG").style.display = "none"; // Hide the Start-the-game container
+  document.getElementById("game-container").style.display = "none"; // Hide the game-container
+  document.getElementById("gameInstructions").style.display = "flex"; // Show the game's instructions
+  initGame();
+}
+
+function TryAgainPos() {
+  document.getElementById("STG").style.display = "none"; // Hide the Start-the-game container
+  document.getElementById("game-container").style.display = "none"; // Hide the game-container
+  document.getElementById("gameInstructions").style.display = "none"; // Hide the game's instructions
+  document.getElementById("RetryScrnPositive").style.display = "flex"; // Show the RetryScrnPositive container
+  document.getElementById("RetryScrnNegative").style.display = "none"; // Hide the RetryScrnPositive container
+  initGame();
+}
+
+function TryAgainNeg() {
+  document.getElementById("STG").style.display = "none"; // Hide the Start-the-game container
+  document.getElementById("game-container").style.display = "none"; // Hide the game-container
+  document.getElementById("gameInstructions").style.display = "none"; // Hide the game's instructions
+  document.getElementById("RetryScrnPositive").style.display = "none"; // Hide the RetryScrnPositive container
+  document.getElementById("RetryScrnNegative").style.display = "flex"; // Show the RetryScrnNegative container
+  initGame();
 }
 
 /* --> Function that starts the game's loop <-- */
@@ -51,8 +76,8 @@ function initGame() {
             var x = e.pageX;
             var y = e.pageY;
 
-            chooseElement.style.left = x - 450 + "px";
-            chooseElement.style.top = y - 550 + "px";
+            chooseElement.style.left = x - 500 + "px";
+            chooseElement.style.top = y - 590 + "px";
           };
         });
 
@@ -161,8 +186,13 @@ function showMessage(msg) {
 /* --> Function made to show and endgame message <-- */
 function endGame() {
   if (points < 0 || points >= 15) {
-    const endMessage = points < 0 ? "Game Over! Better luck next time!" : "Congratulations! You won!";
+    const endMessage = points < 0 ? TryAgainNeg() : TryAgainPos();
     showMessage(endMessage);
     gameend = true;
+
+    /* --> Code that resets points when the game ends <-- */
+    points = 0;
+    updatePointsDisplay();
+
   }
 }
