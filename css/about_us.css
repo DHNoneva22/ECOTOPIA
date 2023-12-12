@@ -122,7 +122,7 @@ left: 1000px;
   text-align: center; 
   font-size: 70px; 
   color:rgb(19, 18, 18); 
-  top:1000px; 
+  top:1050px; 
   left: 550px; 
   font-size: 140px; 
 }
@@ -130,15 +130,15 @@ left: 1000px;
   position: absolute;
   width: 280px;
   height: 290px;
-  top: 1450px;
-  left:1300px;
+  top: 1500px;
+  left:1340px;
   border:2px solid #772734;
 }
 .Jaki-pic{
   position: absolute;
   width: 280px;
   height: 290px;
-  top: 1670px;
+  top: 1750px;
   left: 990px;
   border:2px solid #772734;
 }
@@ -146,41 +146,42 @@ left: 1000px;
   position: absolute;
   width: 280px;
   height: 290px;
-  top: 1820px;
-  left: 1340px;
+  top: 1850px;
+  left: 1370px;
   border:2px solid black;
 }
 .Steli-pic{
   position: absolute;
   width: 280px;
   height: 290px;
-  top: 1350px;
+  top: 1400px;
   left:950px;
   border:2px solid black;
 }
 .team{
   position: absolute;
-  left:230px;
-  top:1340px;
+  left:340px;
+  top:1400px;
   font-size: 25px;
 }
 .quotation-mark1{
   position: absolute;
-  left:230px;
-  top:1530px;
+  left:285px;
+  top:1600px;
   font-size: 70px;
 }
 .quotation-mark2{
   position: absolute;
-  left:670px;
-  top:1660px;
+  left:760px;
+  top:1700px;
   font-size: 70px;
 }
 .citat{
   position: absolute;
+  text-align: center;
   color: #772734;
-  left:260px;
-  top:1650px;
+  left:335px;
+  top:1700px;
 }
 
 
