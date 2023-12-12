@@ -89,7 +89,7 @@ ul li {
 
 .container {
   /* container styling */
-  background-color: rgb(82, 145, 82);
+  background-image: url(../images/game/background.png);
   width: 1200px;
   height: 600px;
   word-spacing: 30px;
@@ -99,22 +99,28 @@ ul li {
   overflow-y: hidden;
   overflow-x: hidden;
   white-space: nowrap;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .element {
   /* individual formating */
   margin-top: 300px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  left: 200px;
 }
 
 #RecycleBin {
   /* Recycling bin styling */
   top: 45px;
   left: 800px;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   position: absolute;
 }
@@ -123,8 +129,8 @@ ul li {
   /* Non-recycling bin styling */
   top: 45px;
   left: 200px;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   position: absolute;
 }
@@ -146,4 +152,17 @@ ul li {
   transform: translate(-50%, -50%);
   font-size: 24px;
   color: white;
+}
+
+#game-container {
+  display: none;
+}
+
+#startButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 10px;
 }
